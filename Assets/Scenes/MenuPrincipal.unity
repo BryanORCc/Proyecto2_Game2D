@@ -767,7 +767,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 582101626}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1776688325921967469, guid: b42ade2a212a34043b50589adf1fd7f9, type: 3}
+        m_TargetAssemblyTypeName: script_exitGame, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &582101626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1684,6 +1696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5035144419718611936, guid: e828ddb4ce2df51498279409253475c9, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5035144419718611937, guid: e828ddb4ce2df51498279409253475c9, type: 3}
       propertyPath: musicBackground
       value: 
@@ -1731,6 +1747,18 @@ PrefabInstance:
     - target: {fileID: 5035144419718611938, guid: e828ddb4ce2df51498279409253475c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035144420858901906, guid: e828ddb4ce2df51498279409253475c9, type: 3}
+      propertyPath: m_TagString
+      value: audioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035144420858901907, guid: e828ddb4ce2df51498279409253475c9, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035144420858901907, guid: e828ddb4ce2df51498279409253475c9, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e828ddb4ce2df51498279409253475c9, type: 3}

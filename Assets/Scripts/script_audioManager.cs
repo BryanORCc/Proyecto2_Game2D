@@ -7,12 +7,11 @@ public class script_audioManager : MonoBehaviour
 {
     private script_audioManager instance;
     public AudioSource musicBackground;
-    public Slider sliderMusicBackground;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -47,10 +46,5 @@ public class script_audioManager : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
-    }
-
-    public void OnMusicVolumeUpdate()
-    {
-        musicBackground.volume = sliderMusicBackground.value;
     }
 }
