@@ -12,6 +12,7 @@ public class script_level : ScriptableObject
     public string respuestaUno;
     public string respuestaDos;
     public string respuestaTres;
+    public string respuestaCuatro;
 
     [Space(20)]
     public int[] arrayReferencias = new int[3];

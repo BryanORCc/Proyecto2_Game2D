@@ -12,6 +12,7 @@ public class script_textControl : MonoBehaviour
     [SerializeField] TextMeshProUGUI textoRespuestaUno;
     [SerializeField] TextMeshProUGUI textoRespuestaDos;
     [SerializeField] TextMeshProUGUI textoRespuestaTres;
+    [SerializeField] TextMeshProUGUI textoRespuestaCuatro;
 
     [SerializeField] GameObject[] arrayBotones;
 
@@ -28,6 +29,7 @@ public class script_textControl : MonoBehaviour
         textoRespuestaUno.text = plantilla.respuestaUno;
         textoRespuestaDos.text = plantilla.respuestaDos;
         textoRespuestaTres.text = plantilla.respuestaTres;
+        textoRespuestaCuatro.text = plantilla.respuestaCuatro;
     }
 
     public void ControlBotones (int indice)

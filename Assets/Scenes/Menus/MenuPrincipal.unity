@@ -1223,9 +1223,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'EDUCACION SEXUAL
-
-'
+  m_text: WARMI QHARI
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a3ec395b8fb076b478b33489b277cc1e, type: 2}
   m_sharedMaterial: {fileID: 7120059252154943948, guid: a3ec395b8fb076b478b33489b277cc1e, type: 2}

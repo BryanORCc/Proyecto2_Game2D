@@ -16,5 +16,6 @@ MonoBehaviour:
   respuestaUno: ghgfh
   respuestaDos: hhhh
   respuestaTres: ggggg
-  arrayReferencias: 020000000300000004000000
+  respuestaCuatro: 
+  arrayReferencias: 02000000030000000400000004000000
   quitaBotones: 0
