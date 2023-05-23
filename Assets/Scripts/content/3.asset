@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: 
-  textoNarrativo: fgdfdfgdfgdfgdf
-  respuestaUno: ghgfh
-  respuestaDos: hhhh
-  respuestaTres: ggggg
+  textoNarrativo: La pareja se da cuenta y empiezan a acercarse
+  respuestaUno: Salir corriendo
+  respuestaDos: Disculparse e irse
+  respuestaTres: "Quedarse y preguntar sobre la situaci\xF3n"
   respuestaCuatro: 
-  arrayReferencias: 02000000030000000400000004000000
+  arrayReferencias: 0b0000000c0000000d000000
   quitaBotones: 0

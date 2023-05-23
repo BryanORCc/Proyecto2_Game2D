@@ -36,7 +36,7 @@ public class script_textControl : MonoBehaviour
     {
         plantilla = arrayPlantillas[plantilla.arrayReferencias[indice]];
 
-        if(plantilla.quitaBotones == true)
+        if (plantilla.quitaBotones == true)
         {
             DesactivaBotones();
         }

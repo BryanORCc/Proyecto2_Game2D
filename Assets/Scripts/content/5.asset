@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 2
+  m_Name: 5
   m_EditorClassIdentifier: 
-  textoNarrativo: '"Nombre" se dirige a casa...
-
-    En casa decide'
-  respuestaUno: Preguntarle a su padre
-  respuestaDos: Investigar en internet
-  respuestaTres: Ignorar la situacion y alistarse para ir al colegio
+  textoNarrativo: "Entonces la pareja increpa tu comentario y te dicen\n\nQue te
+    pasa \xBFacaso no tienes respeto? deberias guardarte tus comentarios para ti"
+  respuestaUno: "Iniciar una discusi\xF3n con la pareja"
+  respuestaDos: Responder de manera despectiva
+  respuestaTres: Escucharlos y tenerlo en cuenta
   respuestaCuatro: 
-  arrayReferencias: 08000000090000000a000000
+  arrayReferencias: 00000000000000000000000000000000
   quitaBotones: 0

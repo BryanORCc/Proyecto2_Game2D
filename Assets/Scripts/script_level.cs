@@ -15,7 +15,7 @@ public class script_level : ScriptableObject
     public string respuestaCuatro;
 
     [Space(20)]
-    public int[] arrayReferencias = new int[3];
+    public int[] arrayReferencias = new int[4];
 
     [Space(20)]
     public bool quitaBotones;

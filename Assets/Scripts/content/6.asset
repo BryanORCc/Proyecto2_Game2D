@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 2
+  m_Name: 6
   m_EditorClassIdentifier: 
-  textoNarrativo: '"Nombre" se dirige a casa...
-
-    En casa decide'
-  respuestaUno: Preguntarle a su padre
-  respuestaDos: Investigar en internet
-  respuestaTres: Ignorar la situacion y alistarse para ir al colegio
+  textoNarrativo: La pareja te detiene y te pide una explicacion
+  respuestaUno: "Iniciar una discuci\xF3n con la pareja"
+  respuestaDos: No hacer caso y continua con tu camino
+  respuestaTres: Explicarle el porque crees que no deberian hacer eso
   respuestaCuatro: 
-  arrayReferencias: 08000000090000000a000000
+  arrayReferencias: 00000000000000000000000000000000
   quitaBotones: 0

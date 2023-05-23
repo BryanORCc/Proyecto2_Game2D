@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  textoNarrativo: dsfsffsfsfghdhgfdgdf
-  respuestaUno: asd
-  respuestaDos: fsd
-  respuestaTres: cxvcxv
-  respuestaCuatro: 
-  arrayReferencias: 02000000030000000400000004000000
+  textoNarrativo: "La pareja incomoda, se acerca, se colocan delante tuyo y te preguntan\n\xBFQue
+    sucede, tienes algun problema con nosotros?"
+  respuestaUno: Si, creo que no deberian hacer eso
+  respuestaDos: Expresar incomodidad e irse sin decir nada
+  respuestaTres: Apartarlos e irse
+  respuestaCuatro: Hacer un baile de fornite e irse
+  arrayReferencias: 050000000600000007000000
   quitaBotones: 0
