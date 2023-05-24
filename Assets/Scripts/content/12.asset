@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 3
+  m_Name: 12
   m_EditorClassIdentifier: 
-  textoNarrativo: La pareja se da cuenta y empiezan a acercarse
-  respuestaUno: Salir corriendo
-  respuestaDos: Disculparse e irse
-  respuestaTres: "Quedarse y preguntar sobre la situaci\xF3n"
+  textoNarrativo: 'Tu amigo iniciara una charla y te empezara a contar su experiencia
+    mas cercana con el tema, al momento de escucharlo tus opciones son:'
+  respuestaUno: No tomar atencion
+  respuestaDos: Decidir escucharlo y disculparse con la pareja
+  respuestaTres: Ecucharlo y decidir increpar su opcion sexual de la pareja
   respuestaCuatro: 
-  arrayReferencias: 02000000060000000b000000
+  arrayReferencias: 00000000000000000000000000000000
   quitaBotones: 0

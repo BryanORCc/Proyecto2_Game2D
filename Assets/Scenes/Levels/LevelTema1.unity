@@ -853,6 +853,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b84d10df2801ea24fa1dc09d9279da2a, type: 2}
   - {fileID: 11400000, guid: 0e471efa6549ff84caa7ae9e49c52acc, type: 2}
   - {fileID: 11400000, guid: b773bf47671c13e4e9714b62933648d5, type: 2}
+  - {fileID: 11400000, guid: de607c20602f27c4fb59d9f25fb2bcea, type: 2}
+  - {fileID: 11400000, guid: 35b4951e93c3c3247a4b748252a5ff03, type: 2}
+  - {fileID: 11400000, guid: 7f85430b765d4e3419abccfae87fa56e, type: 2}
+  - {fileID: 11400000, guid: 5fe26569e4eb9924ba038a0d9d6c508a, type: 2}
+  - {fileID: 11400000, guid: 960d564685b50b849b191ba40691bcec, type: 2}
+  - {fileID: 11400000, guid: dd6aa1aa001db4c41ab4f9f0b93e67c5, type: 2}
+  - {fileID: 11400000, guid: 34ec93d48c7921b44a049f0e77cf8774, type: 2}
   textoNarracion: {fileID: 899402747}
   textoRespuestaUno: {fileID: 1958037586}
   textoRespuestaDos: {fileID: 1414051267}

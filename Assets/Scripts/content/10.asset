@@ -10,13 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 7
+  m_Name: 10
   m_EditorClassIdentifier: 
-  textoNarrativo: La pareja va a su encuentro y lo detiene para enfrentarlo y pedirle
-    una explicacion
-  respuestaUno: '"Nombre" no les hace caso y continua su camino'
-  respuestaDos: Detenersey explicar que no se debe hacer eso
-  respuestaTres: Iniciar una discucion con la pareja
+  textoNarrativo: '"Nombre" toma marchar hacia la ubicacion del colegio, y en la
+    entrada se encuentra con su amiga PATY, que lo esta esperando hace poco.
+
+    Al
+    verla "Nombre" decide hacer:......'
+  respuestaUno: No contarle lo sucedido e irse a clase
+  respuestaDos: Preguntar que opina sobre la homosexualidad
+  respuestaTres: Contarle lo sucedido
   respuestaCuatro: 
   arrayReferencias: 00000000000000000000000000000000
   quitaBotones: 0
