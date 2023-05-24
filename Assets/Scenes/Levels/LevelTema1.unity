@@ -860,6 +860,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 960d564685b50b849b191ba40691bcec, type: 2}
   - {fileID: 11400000, guid: dd6aa1aa001db4c41ab4f9f0b93e67c5, type: 2}
   - {fileID: 11400000, guid: 34ec93d48c7921b44a049f0e77cf8774, type: 2}
+  - {fileID: 11400000, guid: d967001665b4a85468d7c5fdf07bb3df, type: 2}
+  - {fileID: 11400000, guid: b4645d44ef90f0447b8c0965b167ac91, type: 2}
+  - {fileID: 11400000, guid: 43f54ddb828fb064eba90cffac5e8d09, type: 2}
+  - {fileID: 11400000, guid: 00d316b61ac522643b9e9d9983d06b7a, type: 2}
+  - {fileID: 11400000, guid: b2dda774d21f9d44cae5804ce52b57fc, type: 2}
+  - {fileID: 11400000, guid: bfbc907283181fb44b46f952f240c3b5, type: 2}
+  - {fileID: 11400000, guid: 6f9addfef9ac02143930f6327a70a3e1, type: 2}
+  - {fileID: 11400000, guid: 5ef5fc3c75e4e91478ce74c0a6f6cc4c, type: 2}
+  - {fileID: 11400000, guid: 7d4d6d18cba47f14f84cdad0a4fdf8f9, type: 2}
+  - {fileID: 11400000, guid: b818f539b8fa8564fa4c5e5f5ea5ef41, type: 2}
   textoNarracion: {fileID: 899402747}
   textoRespuestaUno: {fileID: 1958037586}
   textoRespuestaDos: {fileID: 1414051267}

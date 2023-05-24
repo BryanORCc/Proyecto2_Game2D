@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
+  m_Name: 20
+  m_EditorClassIdentifier: 
+  textoNarrativo: 'La pareja te responde: "Tienes que aprender que actualmente existe
+    la identidad de genero y no deberias juzgar a los demas, porque puede existir
+    alguien asi en tu familia o en tu entorno, incluso tener hijos asi" '
+  respuestaUno: "Entonces \xBFlo que tienen es una enfermedad?"
+  respuestaDos: "Entonces \xBFustedes nacieron as\xED o se volvieron as\xED ?"
+  respuestaTres: Pero eso debe tener alguna solucion
+  respuestaCuatro: 
+  arrayReferencias: 00000000000000000000000000000000
+  quitaBotones: 0

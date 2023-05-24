@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 13
+  m_Name: 16
   m_EditorClassIdentifier: 
-  textoNarrativo: 'El Tutor te responde conforme el lo cree por conveniente, teniendo
-    en cuenta sus creencias y conocimiento, de acuerdo a ello que decides:'
-  respuestaUno: Escucharlo y  hacer caso a sus consejos
-  respuestaDos: No le tomas atencion
-  respuestaTres: Eliges tomarlo como ejemplo para ti
+  textoNarrativo: Entonces la pareja se da cuenta lo mal informado que te encuentras
+    y decide evitar enfrentarse contigo y se va
+  respuestaUno: Ya estoy tarde, creo que no ire al colegio
+  respuestaDos: No comprar nada e irse a casa
+  respuestaTres: "Ir a la tienda r\xE1pido a comprar el pan e ir a casa"
   respuestaCuatro: 
-  arrayReferencias: 12000000120000001300000000000000
+  arrayReferencias: 15000000000000000000000000000000
   quitaBotones: 0

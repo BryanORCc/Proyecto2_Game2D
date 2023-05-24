@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 7
   m_EditorClassIdentifier: 
-  textoNarrativo: La pareja va a su encuentro y lo detiene para enfrentarlo y pedirle
-    una explicacion
+  textoNarrativo: La pareja te grita "No seas tan ignorante, estamos en el siglo
+    XXI"
   respuestaUno: '"Nombre" no les hace caso y continua su camino'
-  respuestaDos: Detenersey explicar que no se debe hacer eso
-  respuestaTres: Iniciar una discucion con la pareja
+  respuestaDos: decirles que no se debe de hacer eso
+  respuestaTres: Irse a casa
   respuestaCuatro: 
-  arrayReferencias: 00000000000000000000000000000000
+  arrayReferencias: 04000000100000000400000000000000
   quitaBotones: 0

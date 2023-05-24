@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 5
   m_EditorClassIdentifier: 
-  textoNarrativo: "Entonces la pareja increpa tu comentario y te dicen\n\nQue te
-    pasa \xBFacaso no tienes respeto? deberias guardarte tus comentarios para ti"
-  respuestaUno: "Iniciar una discusi\xF3n con la pareja"
-  respuestaDos: Responder de manera despectiva
-  respuestaTres: Escucharlos y tenerlo en cuenta
+  textoNarrativo: "Entonces la pareja empieza a increpar tu comentario e intentar
+    iniciar una discusi\xF3n contigo, pidiendo explicaciones del porque de tu pensamiento"
+  respuestaUno: "Creo que esta mal que personas del mismo sexo est\xE9n en una relaci\xF3n"
+  respuestaDos: "Creo que no deber\xEDan hacer eso en publico"
+  respuestaTres: Insultar de forma despectiva
   respuestaCuatro: 
-  arrayReferencias: 00000000000000000000000000000000
+  arrayReferencias: 0f0000000f0000001000000000000000
   quitaBotones: 0

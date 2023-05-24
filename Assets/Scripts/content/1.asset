@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textoNarrativo: "La pareja incomoda, se acerca, se colocan delante tuyo y te preguntan\n\xBFQue
     sucede, tienes algun problema con nosotros?"
-  respuestaUno: Si, creo que no deberian hacer eso
+  respuestaUno: Si, pienso que esta mal que hagan eso
   respuestaDos: Expresar incomodidad e irse sin decir nada
   respuestaTres: Apartarlos e irse
   respuestaCuatro: 

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 13
+  m_Name: 15
   m_EditorClassIdentifier: 
-  textoNarrativo: 'El Tutor te responde conforme el lo cree por conveniente, teniendo
-    en cuenta sus creencias y conocimiento, de acuerdo a ello que decides:'
-  respuestaUno: Escucharlo y  hacer caso a sus consejos
-  respuestaDos: No le tomas atencion
-  respuestaTres: Eliges tomarlo como ejemplo para ti
+  textoNarrativo: "La pareja te responde: \"Tienes que ser mas emp\xE1tico con la
+    gente y pensar que el mundo y los g\xE9neros han cambiado\""
+  respuestaUno: Pues, yo creo que eso esta mal
+  respuestaDos: Pero, si solo existen 2 generos, Masculino y femenino
+  respuestaTres: ok, lo entendi, no volvera a pasar
   respuestaCuatro: 
-  arrayReferencias: 12000000120000001300000000000000
+  arrayReferencias: 14000000140000001500000000000000
   quitaBotones: 0
