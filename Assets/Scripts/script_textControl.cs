@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class script_textControl : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class script_textControl : MonoBehaviour
     [SerializeField] TextMeshProUGUI textoRespuestaDos;
     [SerializeField] TextMeshProUGUI textoRespuestaTres;
     [SerializeField] TextMeshProUGUI textoRespuestaCuatro;
+    private Sprite image;
 
     [SerializeField] GameObject[] arrayBotones;
 
@@ -30,6 +32,12 @@ public class script_textControl : MonoBehaviour
         textoRespuestaDos.text = plantilla.respuestaDos;
         textoRespuestaTres.text = plantilla.respuestaTres;
         textoRespuestaCuatro.text = plantilla.respuestaCuatro;
+        image = plantilla.image;
+
+        GameObject objetoConEtiqueta = GameObject.FindWithTag("ImageInScene");
+        // Asignar la imagen al componente de imagen
+        Image imageComponent = objetoConEtiqueta.GetComponent<Image>();
+        imageComponent.sprite = image;
     }
 
     public void ControlBotones (int indice)

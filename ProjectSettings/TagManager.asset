@@ -6,6 +6,7 @@ TagManager:
   tags:
   - sliderVolume
   - audioManager
+  - ImageInScene
   layers:
   - Default
   - TransparentFX

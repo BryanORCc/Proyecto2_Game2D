@@ -19,4 +19,6 @@ public class script_level : ScriptableObject
 
     [Space(20)]
     public bool quitaBotones;
+
+    public Sprite image;
 }
