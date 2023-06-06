@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 29
+  m_Name: 5
   m_EditorClassIdentifier: 
-  textoNarrativo: "Si elegiste en Clase, es la opci\xF3n mas conveniente ya que la
-    ayuda de un profesional de puede dar mayor claridad en estos temas, \xBFdonde
-    hubieras preferido buscar tu?"
+  textoNarrativo: "Si elegiste otras personas, no es una opcion tan fiable, por que
+    si tratas este tipo de temas tiene que ser con personas de muy cercana confianza
+    y con personas que te puedan ayudar en este tema, \xBFdonde hubieras preferido
+    buscar tu?"
   respuestaUno: INTERNET
   respuestaDos: CLASES
   respuestaTres: OTRAS PERSONAS
   respuestaCuatro: 
-  arrayReferencias: 00000000000000000000000000000000
+  arrayReferencias: 070000000700000007000000
   quitaBotones: 0
-  image: {fileID: 21300000, guid: 339329365eb23964d80634a7ab52f204, type: 3}
+  image: {fileID: 21300000, guid: 9b7aac326eb732b44b3ef895cc5da63e, type: 3}

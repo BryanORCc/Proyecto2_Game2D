@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 26
+  m_Name: 3
   m_EditorClassIdentifier: 
-  textoNarrativo: "Pues bien, regresemos a Sofia, recuerden que estaba en la etapa
-    de Autonom\xEDa y Autocuidado, d\xE1ndole preferencia al aprendizaje y comprensi\xF3n 
-    sobre su propio cuerpo y sus deseos, en este caso, \xBFDonde crees que es mejor
-    conseguir una buena comprensi\xF3n y aprendizaje sobre este tema?"
+  textoNarrativo: "Si elegiste en internet, es la primera opci\xF3n que eligi\xF3
+    nuestra amiga Sofia, d\xE1ndole como resultado un articulo que habla sobre la
+    importancia de la comunicaci\xF3n y el consentimiento de las relaciones sexuales,
+    es en este caso donde necesito tu ayuda, \xBFdonde hubieras preferido buscar
+    tu?"
   respuestaUno: INTERNET
   respuestaDos: CLASES
   respuestaTres: OTRAS PERSONAS
   respuestaCuatro: 
-  arrayReferencias: 00000000000000000000000000000000
+  arrayReferencias: 070000000700000007000000
   quitaBotones: 0
-  image: {fileID: 21300000, guid: 339329365eb23964d80634a7ab52f204, type: 3}
+  image: {fileID: 21300000, guid: fbf7d3395e8a5784d8d478a031c1db94, type: 3}

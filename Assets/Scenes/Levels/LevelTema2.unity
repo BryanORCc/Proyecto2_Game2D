@@ -924,6 +924,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 183c4637456efc94da2e2f24f338f3ea, type: 2}
   - {fileID: 11400000, guid: 08c034a38f5c3cb48ab85a63bffbd284, type: 2}
   - {fileID: 11400000, guid: 6525dc1df2d6a8647936ee4b23e1e342, type: 2}
+  - {fileID: 11400000, guid: 3bb02b7b5438f34459473eb419826e1c, type: 2}
+  - {fileID: 11400000, guid: d0592bf769acfa34cb0a9b651b8a4447, type: 2}
+  - {fileID: 11400000, guid: a3dc822a106a36149b487cd0b8fcc95e, type: 2}
+  - {fileID: 11400000, guid: 413cb2edaadda184bb66df2492f226f6, type: 2}
+  - {fileID: 11400000, guid: 33cfb86ffeba84e408c9ed3f3cff89fa, type: 2}
+  - {fileID: 11400000, guid: 70d6d0f4e0009454e9aa7d168908bb89, type: 2}
+  - {fileID: 11400000, guid: 0a8ba03895701c34cbebbd7fba3c098b, type: 2}
+  - {fileID: 11400000, guid: cab28c40219cc184a96b994ed559546b, type: 2}
+  - {fileID: 11400000, guid: 9438d6d948394264f94e29df2c9f1e41, type: 2}
+  - {fileID: 11400000, guid: 889bf50bdc55c2642b7f7c782c258145, type: 2}
+  - {fileID: 11400000, guid: 4fd86d0ebb2922a4f9068546d369ce87, type: 2}
+  - {fileID: 11400000, guid: 2fcd59cec7bd01f4181d6d3a0349d7ed, type: 2}
+  - {fileID: 11400000, guid: d158942852325f74e91d526ba76d525d, type: 2}
   textoNarracion: {fileID: 899402747}
   textoRespuestaUno: {fileID: 1958037586}
   textoRespuestaDos: {fileID: 1414051267}

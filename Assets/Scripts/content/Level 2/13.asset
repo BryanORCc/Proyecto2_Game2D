@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 38
+  m_Name: 13
   m_EditorClassIdentifier: 
   textoNarrativo: "Tu eleccion podria traer problemas no solo para Sofia, si no que
     tambien para el desarrollo de tu sexualidad, el hecho de tener prejuicios frente
@@ -21,6 +21,6 @@ MonoBehaviour:
   respuestaDos: NO
   respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 00000000000000000000000000000000
+  arrayReferencias: 0e0000000f000000
   quitaBotones: 0
   image: {fileID: 21300000, guid: fbf7d3395e8a5784d8d478a031c1db94, type: 3}

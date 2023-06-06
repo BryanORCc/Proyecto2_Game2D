@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 32
+  m_Name: 12
   m_EditorClassIdentifier: 
-  textoNarrativo: "En este caso, seguiremos con la historia de Sofia interviniendo
-    tu opci\xF3n marcada. Entonces Sofia al descubrir este articulo, llamo su atenci\xF3n,
-    ya que logro entender que pod\xEDa ser capaz de expresar claramente sus limites
-    y los deseos que pueda sentir la pareja de Sofia"
-  respuestaUno: DERECHOS SEXUALES
-  respuestaDos: SEXUALIDAD RESPONSABLE
+  textoNarrativo: "Elegiste muy bien, la libertad en el \xE1mbito sexual es algo
+    muy importante en el desarrollo de no prejuicios y poder entender mas sobre la
+    sexualidad y todo lo que conlleva la Autonom\xEDa conjunto el Autocuidado. \xBFSabes
+    que es una enfermedad de Transmisi\xF3n Sexual?"
+  respuestaUno: 'SI '
+  respuestaDos: NO
   respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 00000000000000000000000000000000
+  arrayReferencias: 0e0000000f000000
   quitaBotones: 0
   image: {fileID: 21300000, guid: e8ccff1e2ce55a249b82527ff0315920, type: 3}

@@ -10,17 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 28
+  m_Name: 6
   m_EditorClassIdentifier: 
-  textoNarrativo: "Si elegiste en internet, es la primera opci\xF3n que eligi\xF3
-    nuestra amiga Sofia, d\xE1ndole como resultado un articulo que habla sobre la
-    importancia de la comunicaci\xF3n y el consentimiento de las relaciones sexuales,
-    es en este caso donde necesito tu ayuda, \xBFdonde hubieras preferido buscar
-    tu?"
-  respuestaUno: INTERNET
-  respuestaDos: CLASES
-  respuestaTres: OTRAS PERSONAS
+  textoNarrativo: Leelo de nuevo y consultalo con el docente, alguna parte que no
+    entiendas :)
+  respuestaUno: SI
+  respuestaDos: 
+  respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 00000000000000000000000000000000
+  arrayReferencias: 02000000
   quitaBotones: 0
   image: {fileID: 21300000, guid: fbf7d3395e8a5784d8d478a031c1db94, type: 3}

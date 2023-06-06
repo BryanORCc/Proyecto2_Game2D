@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 33
+  m_Name: 8
   m_EditorClassIdentifier: 
   textoNarrativo: "Bien, si elegiste Derechos Sexuales, Buena elecci\xF3n\xA1, pues
     bien aqu\xED interviene la vivencia de una sexualidad libre de coacci\xF3n, discriminaci\xF3n
@@ -21,6 +21,6 @@ MonoBehaviour:
   respuestaDos: QUIERES JUGAR AL FORNITE
   respuestaTres: REINICIAR LA PC
   respuestaCuatro: 
-  arrayReferencias: 00000000000000000000000000000000
+  arrayReferencias: 0a0000000b0000000b000000
   quitaBotones: 0
   image: {fileID: 21300000, guid: 339329365eb23964d80634a7ab52f204, type: 3}

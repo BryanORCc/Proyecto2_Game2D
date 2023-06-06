@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 31
+  m_Name: 14
   m_EditorClassIdentifier: 
-  textoNarrativo: Leelo de nuevo y consultalo con el docente, alguna parte que no
-    entiendas :)
-  respuestaUno: SI
+  textoNarrativo: "Pues bien, parte de los derechos tambi\xE9n interviene decidir
+    si quiere tener relaciones y de que manera, por las dos partes de la relaci\xF3n.
+    Elige una Opcion"
+  respuestaUno: 
   respuestaDos: 
   respuestaTres: 
   respuestaCuatro: 
   arrayReferencias: 00000000000000000000000000000000
   quitaBotones: 0
-  image: {fileID: 21300000, guid: fbf7d3395e8a5784d8d478a031c1db94, type: 3}
+  image: {fileID: 21300000, guid: e8ccff1e2ce55a249b82527ff0315920, type: 3}
