@@ -21,4 +21,5 @@ public class script_level : ScriptableObject
     public bool quitaBotones;
 
     public Sprite image;
+    public GameObject personaje;
 }

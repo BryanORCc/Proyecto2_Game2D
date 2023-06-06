@@ -20,3 +20,4 @@ MonoBehaviour:
   arrayReferencias: 01000000020000000300000004000000
   quitaBotones: 0
   image: {fileID: 21300000, guid: 89f3e6ff601a45d41850e7b7524ca0ef, type: 3}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

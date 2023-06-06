@@ -15,6 +15,7 @@ public class script_textControl : MonoBehaviour
     [SerializeField] TextMeshProUGUI textoRespuestaTres;
     [SerializeField] TextMeshProUGUI textoRespuestaCuatro;
     private Sprite image;
+    private GameObject character;
 
     [SerializeField] GameObject[] arrayBotones;
 
@@ -33,11 +34,19 @@ public class script_textControl : MonoBehaviour
         textoRespuestaTres.text = plantilla.respuestaTres;
         textoRespuestaCuatro.text = plantilla.respuestaCuatro;
         image = plantilla.image;
+        character = plantilla.personaje;
 
         GameObject objetoConEtiqueta = GameObject.FindWithTag("ImageInScene");
+        GameObject objetoPersonaje = GameObject.FindWithTag("Character");
+
         // Asignar la imagen al componente de imagen
         Image imageComponent = objetoConEtiqueta.GetComponent<Image>();
         imageComponent.sprite = image;
+
+        // Asignar el objeto 3d al GameObject
+        GameObject characterComponent = Instantiate(character, objetoPersonaje.transform.position, objetoPersonaje.transform.rotation);
+        characterComponent.transform.localScale = new Vector3(3f, 3f, 3f);
+        characterComponent.transform.parent = objetoPersonaje.transform;
     }
 
     public void ControlBotones (int indice)
