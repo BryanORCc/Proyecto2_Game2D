@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
+  m_Name: 26
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Pues bien, regresemos a Sofia, recuerden que estaba en la etapa
+    de Autonom\xEDa y Autocuidado, d\xE1ndole preferencia al aprendizaje y comprensi\xF3n 
+    sobre su propio cuerpo y sus deseos, en este caso, \xBFDonde crees que es mejor
+    conseguir una buena comprensi\xF3n y aprendizaje sobre este tema?"
+  respuestaUno: INTERNET
+  respuestaDos: CLASES
+  respuestaTres: OTRAS PERSONAS
+  respuestaCuatro: 
+  arrayReferencias: 00000000000000000000000000000000
+  quitaBotones: 0
+  image: {fileID: 21300000, guid: 339329365eb23964d80634a7ab52f204, type: 3}

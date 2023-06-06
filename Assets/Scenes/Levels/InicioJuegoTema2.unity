@@ -443,11 +443,11 @@ RectTransform:
   m_Children:
   - {fileID: 484427607}
   m_Father: {fileID: 1938481942}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 858, y: -402}
+  m_AnchoredPosition: {x: 854, y: -446}
   m_SizeDelta: {x: 303.119, y: 123.396}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &582101625
@@ -501,7 +501,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 9
+          m_IntArgument: 11
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -786,12 +786,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1938481942}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000034332, y: -62}
-  m_SizeDelta: {x: 1232.565, y: 444.16}
+  m_AnchoredPosition: {x: 16, y: -64}
+  m_SizeDelta: {x: 1232.565, y: 763.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1508008703
 MonoBehaviour:
@@ -813,9 +813,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Una ma\xF1ana \"nombre\" sali\xF3 como siempre a comprar el pan para tomar
-    desayuno e irse al colegio, cuando en el transcurso, ve a dos hombres abrazados
-    y bes\xE1ndose\r\n"
+  m_text: "Bienvenidos otra vez, nos reunimos otra vez \"...\", pero en esta oportunidad
+    trataremos sobre la propia autonom\xEDa y tu autocuidado.\r\nEn este caso conoceremos
+    a Sofia. Sofia esta cursando la etapa del descubrimiento y la exploraci\xF3n 
+    de su sexualidad, entonces empecemos a disfrutar de la historia de Sofia con
+    tus propias decisiones y acciones.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 89be38d9bddd0f546b2ce39d15992e45, type: 2}
   m_sharedMaterial: {fileID: -2833070557427774773, guid: 89be38d9bddd0f546b2ce39d15992e45, type: 2}
@@ -986,8 +988,8 @@ RectTransform:
   m_Children:
   - {fileID: 1388528717}
   - {fileID: 1141990063}
-  - {fileID: 582101624}
   - {fileID: 1508008702}
+  - {fileID: 582101624}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

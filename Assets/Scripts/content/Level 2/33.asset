@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
+  m_Name: 33
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Bien, si elegiste Derechos Sexuales, Buena elecci\xF3n\xA1, pues
+    bien aqu\xED interviene la vivencia de una sexualidad libre de coacci\xF3n, discriminaci\xF3n
+    y violencia, tu eres determinantemente libre y dispones de una parte integral 
+    y maravillosa decisi\xF3n respecto a los derechos que se dan en la sexualidad.
+    Ahora elige una opci\xF3n"
+  respuestaUno: QUIERES APRENDER MAS SOBRE EL TEMA
+  respuestaDos: QUIERES JUGAR AL FORNITE
+  respuestaTres: REINICIAR LA PC
+  respuestaCuatro: 
+  arrayReferencias: 00000000000000000000000000000000
+  quitaBotones: 0
+  image: {fileID: 21300000, guid: 339329365eb23964d80634a7ab52f204, type: 3}

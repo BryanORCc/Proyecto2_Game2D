@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
+  m_Name: 40
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Las enfermedades de transmisi\xF3n sexual (ETS) o infecciones
+    de transmisi\xF3n sexual (ITS) son infecciones que se transmiten de una persona
+    a otra a trav\xE9s del contacto sexual. El contacto suele ser vaginal, oral y
+    anal. Pero a veces pueden transmitirse a trav\xE9s de otro contacto f\xEDsico
+    \xEDntimo involucrando el pene, vagina, boca o ano. Esto se debe a que algunas
+    ETS, como el herpes y el VPH, se transmiten por contacto de piel a pie. Elige
+    una Opcion"
+  respuestaUno: 
+  respuestaDos: 
+  respuestaTres: 
+  respuestaCuatro: 
+  arrayReferencias: 00000000000000000000000000000000
+  quitaBotones: 0
+  image: {fileID: 21300000, guid: 339329365eb23964d80634a7ab52f204, type: 3}
