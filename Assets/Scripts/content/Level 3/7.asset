@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  textoNarrativo: "En este caso, seguiremos con la historia de Juan. Rosa lo recibi\xF3
+    con una sonrisa amable y le ofreci\xF3 un t\xE9 caliente. Juan le explic\xF3
+    sus inquietudes y su deseo de aprender m\xE1s sobre c\xF3mo relacionarse de manera
+    m\xE1s plena y afectuosa en su vida sexual. Juan le pregunta que interviene la
+    Actividad y relaciones interpersonales"
+  respuestaUno: Relaciones Interpersonales
+  respuestaDos: Acfectividad Sexual
+  respuestaTres: 
+  respuestaCuatro: 
+  arrayReferencias: 0800000009000000
+  quitaBotones: 0
+  image: {fileID: 21300000, guid: 339329365eb23964d80634a7ab52f204, type: 3}
+  personaje: {fileID: 0}

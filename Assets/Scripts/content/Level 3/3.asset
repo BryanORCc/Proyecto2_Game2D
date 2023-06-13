@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 0
+  m_Name: 3
   m_EditorClassIdentifier: 
-  textoNarrativo: "Antes de iniciar la historia, sabes \xBFque es afectividad y relaciones
-    interpersonales?"
-  respuestaUno: SI
-  respuestaDos: NO
-  respuestaTres: 
+  textoNarrativo: "Si elegiste en internet, es una opci\xF3n muy poco fiable, y la
+    verdad se encuentra cualquier tipo de informaci\xF3n, que en vez de informar
+    te desinforma, \xBFdonde hubieras preferido buscar tu?"
+  respuestaUno: Internet
+  respuestaDos: Clases
+  respuestaTres: Otras Personas
   respuestaCuatro: 
-  arrayReferencias: 0100000002000000
+  arrayReferencias: 070000000700000007000000
   quitaBotones: 0
-  image: {fileID: 21300000, guid: fbf7d3395e8a5784d8d478a031c1db94, type: 3}
+  image: {fileID: 21300000, guid: 9b7aac326eb732b44b3ef895cc5da63e, type: 3}
   personaje: {fileID: 0}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  textoNarrativo: "La sexualidad se relaciona con la afectividad porque es fuente
+    de placer, satisfacci\xF3n, bienestar, \rcomunicaci\xF3n y afectividad, y, como
+    tal, se expresa a trav\xE9s de valores como ternura, confianza, \rrespeto, comunicaci\xF3n
+    e igualdad1. Una relaci\xF3n sexual en que existe atracci\xF3n er\xF3tica y \rprofundos
+    de amor, ser\xE1 la m\xE1xima comunicaci\xF3n que una pareja puedan compartir;
+    satisface las \rnecesidades afectivas que se dan en todos los planos de la relaci\xF3n
+    humana: corporal, emocional, \rintelectual y espiritual, \xBFEntendiste?"
+  respuestaUno: SI
+  respuestaDos: NO
+  respuestaTres: 
+  respuestaCuatro: 
+  arrayReferencias: 0100000006000000
+  quitaBotones: 0
+  image: {fileID: 21300000, guid: e8ccff1e2ce55a249b82527ff0315920, type: 3}
+  personaje: {fileID: 0}

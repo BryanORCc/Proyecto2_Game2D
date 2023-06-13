@@ -10,15 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 0
+  m_Name: 9
   m_EditorClassIdentifier: 
-  textoNarrativo: "Antes de iniciar la historia, sabes \xBFque es afectividad y relaciones
-    interpersonales?"
+  textoNarrativo: "Dentro de la afectividad de las personas y las conductas sexuales
+    y saludables, estimulando a la vez actitudes preventivas, que nos aproximan a
+    conceptos b\xE1sicos de la sexualidad o conductas de riesgo, como herramientas
+    de prevenci\xF3n de riesgos y se informa sobre los recursos disponibles y el
+    trabajo que realizan las entidades especializadas. \xBFLo entendiste?"
   respuestaUno: SI
   respuestaDos: NO
   respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 0100000002000000
+  arrayReferencias: 0a0000000b000000
   quitaBotones: 0
   image: {fileID: 21300000, guid: fbf7d3395e8a5784d8d478a031c1db94, type: 3}
   personaje: {fileID: 0}
