@@ -44,9 +44,28 @@ public class script_textControl : MonoBehaviour
         imageComponent.sprite = image;
 
         // Asignar el objeto 3d al GameObject
-        GameObject characterComponent = Instantiate(character, objetoPersonaje.transform.position, objetoPersonaje.transform.rotation);
-        characterComponent.transform.localScale = new Vector3(3f, 3f, 3f);
-        characterComponent.transform.parent = objetoPersonaje.transform;
+        if(objetoPersonaje && character)
+        {
+            GameObject characterComponent = Instantiate(character, objetoPersonaje.transform.position, objetoPersonaje.transform.rotation);
+            characterComponent.transform.localScale = new Vector3(3f, 3f, 3f);
+            characterComponent.transform.localRotation = Quaternion.Euler(new Vector3(0f, 180f, 0f));
+            characterComponent.transform.parent = objetoPersonaje.transform;
+        }
+        
+
+        foreach (var boton in arrayBotones)
+        {
+            TextMeshProUGUI textoBoton = boton.GetComponentInChildren<TextMeshProUGUI>();
+
+            if (textoBoton != null && !string.IsNullOrEmpty(textoBoton.text))
+            {
+                Debug.Log("El botón contiene texto: " + textoBoton.text);
+            }
+            else
+            {
+                boton.SetActive(false);
+            }
+        }
     }
 
     public void ControlBotones (int indice)
