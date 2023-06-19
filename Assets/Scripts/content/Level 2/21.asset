@@ -10,16 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 15
+  m_Name: 21
   m_EditorClassIdentifier: 
-  textoNarrativo: "Las enfermedades de transmisi\xF3n sexual (ETS) o infecciones
-    de transmisi\xF3n sexual (ITS) son infecciones que se transmiten de una persona
-    a otra a trav\xE9s del contacto sexual. El contacto suele ser vaginal, oral y
-    anal. Pero a veces pueden transmitirse a trav\xE9s de otro contacto f\xEDsico
-    \xEDntimo involucrando el pene, vagina, boca o ano. Esto se debe a que algunas
-    ETS, como el herpes y el VPH, se transmiten por contacto de piel a pie. \xBFLo
-    entendiste?"
-  respuestaUno: SI
+  textoNarrativo: "Algunos ejemplos son el DIU (dispositivo intrauterino) de cobre
+    (ParaGard), el DIU hormonal (Mirena, Skyla, Kyleena, otros) y el implante anticonceptivo
+    (Nexplanon). Se consideran m\xE9todos de acci\xF3n prolongada porque duran entre
+    tres y diez a\xF1os despu\xE9s de la inserci\xF3n (dependiendo del dispositivo)
+    o hasta que se decida retirar el dispositivo. \xBFLo entendiste?"
+  respuestaUno: 'SI '
   respuestaDos: NO
   respuestaTres: 
   respuestaCuatro: 
@@ -27,7 +25,7 @@ MonoBehaviour:
   pesoR2: 0
   pesoR3: 0
   pesoR4: 0
-  arrayReferencias: 0e00000012000000
+  arrayReferencias: 0f0000000f000000
   quitaBotones: 0
   image: {fileID: 21300000, guid: 339329365eb23964d80634a7ab52f204, type: 3}
   personaje: {fileID: 0}

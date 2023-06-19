@@ -10,20 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
-  m_Name: 14
+  m_Name: 25
   m_EditorClassIdentifier: 
-  textoNarrativo: "Pues bien, parte de los derechos tambi\xE9n interviene decidir
-    si quiere tener relaciones y de que manera, por las dos partes de la relaci\xF3n.
-    \xBFCrees que es importante la decisi\xF3n de cada parte de la pareja?"
-  respuestaUno: SI
-  respuestaDos: NO
+  textoNarrativo: "Por favor, SI NO entiendes nada de este tema vuelve a seleccionarlo
+    y hay t\xE9rminos que aun as\xED no entiendas, preg\xFAntalo a tu TUTOR."
+  respuestaUno: SIGUIENTE
+  respuestaDos: 
   respuestaTres: 
   respuestaCuatro: 
   pesoR1: 0
   pesoR2: 0
   pesoR3: 0
   pesoR4: 0
-  arrayReferencias: 1000000011000000
+  arrayReferencias: 13000000
   quitaBotones: 0
-  image: {fileID: 21300000, guid: e8ccff1e2ce55a249b82527ff0315920, type: 3}
+  image: {fileID: 21300000, guid: 339329365eb23964d80634a7ab52f204, type: 3}
   personaje: {fileID: 0}

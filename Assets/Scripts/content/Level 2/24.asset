@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
+  m_Name: 24
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Pues bien sigamos: Con el tiempo, Sof\xEDa se convirti\xF3 en
+    una joven segura y aut\xF3noma en su sexualidad. Aprendi\xF3 a decir \"no\" cuando
+    algo no le hac\xEDa sentir c\xF3moda y a decir \"s\xED\" cuando deseaba explorar
+    nuevas experiencias. Comunicaba claramente sus l\xEDmites y respetaba los de
+    los dem\xE1s. Ahora como crees que de funcionar una relaci\xF3n. "
+  respuestaUno: "Relaci\xF3n Segura con una comunicaci\xF3n buena"
+  respuestaDos: "Relaci\xF3n poco Segura con falta de comunicaci\xF3n"
+  respuestaTres: "Relaci\xF3n poco fiable sin autonom\xEDa"
+  respuestaCuatro: 
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 1a0000001b0000001b000000
+  quitaBotones: 0
+  image: {fileID: 21300000, guid: 339329365eb23964d80634a7ab52f204, type: 3}
+  personaje: {fileID: 0}
