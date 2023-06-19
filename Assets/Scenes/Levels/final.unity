@@ -501,7 +501,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 13
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -602,7 +602,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: WARMI QHARI
+  m_text: Final
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a3ec395b8fb076b478b33489b277cc1e, type: 2}
   m_sharedMaterial: {fileID: 7120059252154943948, guid: a3ec395b8fb076b478b33489b277cc1e, type: 2}
@@ -767,7 +767,7 @@ GameObject:
   - component: {fileID: 1508008704}
   - component: {fileID: 1508008703}
   m_Layer: 5
-  m_Name: TxtHistoria
+  m_Name: TxtResultado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -790,8 +790,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000038147, y: -44}
-  m_SizeDelta: {x: 1232.565, y: 792.253}
+  m_AnchoredPosition: {x: 0, y: -0.000015259}
+  m_SizeDelta: {x: 1232.56, y: 238.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1508008703
 MonoBehaviour:
@@ -813,11 +813,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bienvenidos otra vez, pero en esta oportunidad trataremos sobre la afectividad
-    y las relaciones interpersonales.\r\nEn este caso conoceremos a Juan. Juan a
-    pesar de ser una persona amigable y cari\xF1osa, ten\xEDa dificultades para expresar
-    sus emociones \xEDntimas y establecer conexiones profundas con los dem\xE1s.
-    \n"
+  m_text: 'Puntuacion obtenida: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 89be38d9bddd0f546b2ce39d15992e45, type: 2}
   m_sharedMaterial: {fileID: -2833070557427774773, guid: 89be38d9bddd0f546b2ce39d15992e45, type: 2}
@@ -894,6 +890,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508008701}
   m_CullTransparentMesh: 1
+--- !u!1 &1718105748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1718105750}
+  - component: {fileID: 1718105749}
+  m_Layer: 0
+  m_Name: ResultManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1718105749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718105748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85973e7d289a79d4a9df421f3ff91caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalResult: {fileID: 1508008703}
+--- !u!4 &1718105750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718105748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9310736, y: -0.015528506, z: 2359.3313}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1938481938
 GameObject:
   m_ObjectHideFlags: 0

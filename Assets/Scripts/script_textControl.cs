@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class script_textControl : MonoBehaviour
 {
+    public static script_textControl instance;
+
     [SerializeField] script_level plantilla;
     [SerializeField] script_level[] arrayPlantillas;
 
@@ -14,15 +17,19 @@ public class script_textControl : MonoBehaviour
     [SerializeField] TextMeshProUGUI textoRespuestaDos;
     [SerializeField] TextMeshProUGUI textoRespuestaTres;
     [SerializeField] TextMeshProUGUI textoRespuestaCuatro;
+
     private Sprite image;
     private GameObject character;
+    private float[] pesos;
+
+    public float nota = 0;
 
     [SerializeField] GameObject[] arrayBotones;
 
     // Start is called before the first frame update
     void Start()
     {
-        plantilla = arrayPlantillas[0];
+        ReiniciarPlantilla();
         MuestraTexto();
     }
 
@@ -33,6 +40,9 @@ public class script_textControl : MonoBehaviour
         textoRespuestaDos.text = plantilla.respuestaDos;
         textoRespuestaTres.text = plantilla.respuestaTres;
         textoRespuestaCuatro.text = plantilla.respuestaCuatro;
+
+        pesos = new float[] { plantilla.pesoR1, plantilla.pesoR2, plantilla.pesoR3, plantilla.pesoR4 };
+
         image = plantilla.image;
         character = plantilla.personaje;
 
@@ -60,6 +70,7 @@ public class script_textControl : MonoBehaviour
             if (textoBoton != null && !string.IsNullOrEmpty(textoBoton.text))
             {
                 Debug.Log("El botón contiene texto: " + textoBoton.text);
+                boton.SetActive(true);
             }
             else
             {
@@ -70,13 +81,22 @@ public class script_textControl : MonoBehaviour
 
     public void ControlBotones (int indice)
     {
-        plantilla = arrayPlantillas[plantilla.arrayReferencias[indice]];
+        nota += pesos[indice];
 
-        if (plantilla.quitaBotones == true)
+        if (plantilla.arrayReferencias[indice] == 50)
         {
-            DesactivaBotones();
+            SceneManager.LoadScene(14);
+        } 
+        else
+        {
+            plantilla = arrayPlantillas[plantilla.arrayReferencias[indice]];
+
+            if (plantilla.quitaBotones == true)
+            {
+                DesactivaBotones();
+            }
+            MuestraTexto();
         }
-        MuestraTexto();
     }
 
     void DesactivaBotones()
@@ -85,5 +105,19 @@ public class script_textControl : MonoBehaviour
         {
             boton.SetActive(false);
         }
+    }
+
+    private void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
+    void ReiniciarPlantilla()
+    {
+        plantilla = arrayPlantillas[0];
     }
 }

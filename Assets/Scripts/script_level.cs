@@ -15,6 +15,12 @@ public class script_level : ScriptableObject
     public string respuestaCuatro;
 
     [Space(20)]
+    public float pesoR1;
+    public float pesoR2;
+    public float pesoR3;
+    public float pesoR4;
+
+    [Space(20)]
     public int[] arrayReferencias = new int[4];
 
     [Space(20)]
