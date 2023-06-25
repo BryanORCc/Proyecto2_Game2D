@@ -18,5 +18,11 @@ MonoBehaviour:
   respuestaDos: "Creo que no deber\xEDan hacer eso en publico"
   respuestaTres: Insultar de forma despectiva
   respuestaCuatro: 
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
   arrayReferencias: 0f0000000f0000001000000000000000
   quitaBotones: 0
+  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  personaje: {fileID: 0}
