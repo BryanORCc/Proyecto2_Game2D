@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 0
   m_EditorClassIdentifier: 
-  textoNarrativo: "\xBFCual seria tu primera accion al ver esta pareja en el parque?"
+  textoNarrativo: "\"nombre\" \xBFCual seria tu primera accion al ver esta pareja
+    en el parque?"
   respuestaUno: Reclamarles a la pareja, el porque hacen eso en publico
   respuestaDos: Ignorar la situacion
   respuestaTres: Quedarse Viendo

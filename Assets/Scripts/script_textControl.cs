@@ -90,20 +90,7 @@ public class script_textControl : MonoBehaviour
         else
         {
             plantilla = arrayPlantillas[plantilla.arrayReferencias[indice]];
-
-            if (plantilla.quitaBotones == true)
-            {
-                DesactivaBotones();
-            }
             MuestraTexto();
-        }
-    }
-
-    void DesactivaBotones()
-    {
-        foreach(var boton in arrayBotones)
-        {
-            boton.SetActive(false);
         }
     }
 
