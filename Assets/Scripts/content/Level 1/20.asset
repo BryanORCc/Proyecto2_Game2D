@@ -12,12 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 20
   m_EditorClassIdentifier: 
-  textoNarrativo: 'La pareja te responde: "Tienes que aprender que actualmente existe
-    la identidad de genero y no deberias juzgar a los demas, porque puede existir
-    alguien asi en tu familia o en tu entorno, incluso tener hijos asi" '
-  respuestaUno: "Entonces \xBFlo que tienen es una enfermedad?"
-  respuestaDos: "Entonces \xBFustedes nacieron as\xED o se volvieron as\xED ?"
-  respuestaTres: Pero eso debe tener alguna solucion
+  textoNarrativo: "Si elegiste esta opci\xF3n, es por que hay conocimiento de que
+    no todas las personas, tiendes a tener el mismo genero sexual, a diferencia de
+    otros.\r\nCONSEJO: Acepta a otras personas como son "
+  respuestaUno: Prefieres seguir con la historia
+  respuestaDos: Quiero ver las otras opciones
+  respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 00000000000000000000000000000000
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 150000000f000000
   quitaBotones: 0
+  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

@@ -12,11 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 8
   m_EditorClassIdentifier: 
-  textoNarrativo: Llegando a casa, "nombre" decide preguntar a su padre, sin embargo
-    el padre decide no contestarle, por que tiene que ir a trabajar
-  respuestaUno: '"Nombre" decide preguntarle a su mama'
-  respuestaDos: Preguntarle a un amigo
-  respuestaTres: Preguntarle a un profesor
-  respuestaCuatro: No hacer nada
-  arrayReferencias: 000000000c0000000000000000000000
+  textoNarrativo: "Un d\xEDa, mientras Alex caminaba por el bosque cercano al pueblo,
+    se encontr\xF3 con un \xE1rbol muy especial. Era un \xE1rbol antiguo y majestuoso,
+    cuyas ramas parec\xEDan abrazar el cielo. Fascinado por su belleza, Alex se acerc\xF3
+    y not\xF3 que hab\xEDa una peque\xF1a inscripci\xF3n en su tronco que dec\xEDa:
+    \"Encuentra la verdadera esencia dentro de ti\". \xBFQue crees que significa
+    esa frase?"
+  respuestaUno: Lo que importa es lo que esta dentro de ti....tu Identidad
+  respuestaDos: Vamo a jugar
+  respuestaTres: No se la verdad
+  respuestaCuatro: 
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 090000000a0000000a000000
   quitaBotones: 0
+  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

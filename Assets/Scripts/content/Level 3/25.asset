@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
+  m_Name: 25
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Las personas con estilos de apego seguros, con buena autoestima
+    y regulaci\xF3n de las emociones, la conducta sexual es m\xE1s c\xF3moda y manejable,
+    tienen menor conflicto con el deseo er\xF3tico y una mayor capacidad para el
+    cuidado sensible; mientras que para los estilos de apego inseguros son m\xE1s
+    frecuentes la confusi\xF3n, la angustia y el dolor en el planteamiento de su
+    vida sexual. \xBFLo entendiste?"
+  respuestaUno: SI
+  respuestaDos: Quiero saber los demas temas
+  respuestaTres: NO
+  respuestaCuatro: 
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 1b0000001c0000001d000000
+  quitaBotones: 0
+  image: {fileID: 21300000, guid: e8ccff1e2ce55a249b82527ff0315920, type: 3}
+  personaje: {fileID: 0}

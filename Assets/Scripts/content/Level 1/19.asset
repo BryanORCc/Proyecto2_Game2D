@@ -12,11 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 19
   m_EditorClassIdentifier: 
-  textoNarrativo: "Al tomarle atenci\xF3n, empiezas a generar dudas sobre la sexualidad
-    de genero"
-  respuestaUno: Cuales son las identidades de genero que existe en el mundo
-  respuestaDos: En que genero estoy identificado
-  respuestaTres: "Por que existen diferentes g\xE9neros sexuales"
+  textoNarrativo: "Si elegiste esta opci\xF3n, es por que piensas igual que todas
+    las personas que ejercen sus derechos, en especial los j\xF3venes que empiezan
+    a descubrir nuevas formas en su sexualidad.\r\nCONSEJO: Respeta los derechos
+    ajenos y as\xED podr\xE1s respetar los tuyos."
+  respuestaUno: Prefieres seguir con la historia
+  respuestaDos: Quiero ver las otras opciones
+  respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 17000000170000001800000000000000
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 150000000f000000
   quitaBotones: 0
+  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

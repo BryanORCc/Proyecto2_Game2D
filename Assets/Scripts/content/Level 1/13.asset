@@ -12,11 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 13
   m_EditorClassIdentifier: 
-  textoNarrativo: 'El Tutor te responde conforme el lo cree por conveniente, teniendo
-    en cuenta sus creencias y conocimiento, de acuerdo a ello que decides:'
-  respuestaUno: Escucharlo y  hacer caso a sus consejos
-  respuestaDos: No le tomas atencion
-  respuestaTres: Eliges tomarlo como ejemplo para ti
+  textoNarrativo: "Si elegiste esta opcion, es la mejor, ya que si quieres vivir
+    una vida plena es mejor aceptarse a si mismo, trav\xE9s de estas conversaciones,
+    descubri\xF3 que no estaba solo. Muchas personas hab\xEDan pasado por procesos
+    similares y estaban dispuestas a apoyarlo en su viaje. \xBFTu crees que es importante
+    a ayudar a otras personas frente a este tema?"
+  respuestaUno: SI
+  respuestaDos: NO
+  respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 12000000120000001300000000000000
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 0f00000010000000
   quitaBotones: 0
+  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

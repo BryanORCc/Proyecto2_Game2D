@@ -12,17 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 5
   m_EditorClassIdentifier: 
-  textoNarrativo: "Entonces la pareja empieza a increpar tu comentario e intentar
-    iniciar una discusi\xF3n contigo, pidiendo explicaciones del porque de tu pensamiento"
-  respuestaUno: "Creo que esta mal que personas del mismo sexo est\xE9n en una relaci\xF3n"
-  respuestaDos: "Creo que no deber\xEDan hacer eso en publico"
-  respuestaTres: Insultar de forma despectiva
+  textoNarrativo: "- CISGENERO:  Aquellos cuya identidad de g\xE9nero coincide con
+    el sexo que le fue asignado al nacer.\r\n- TRANSGENERO: Es alguien que no se
+    identifica con el sexo que le fue asignado al nacer. \r\n- INTERSEXUAL: Persona
+    cuyas caracter\xEDsticas f\xEDsicas, biol\xF3gicas, hormonales o gen\xE9ticas
+    impiden catalogarla como hombre o mujer.\r\n- QUEER: Personas que no se sienten
+    identificadas con las ideas de la sociedad con respecto al g\xE9nero y la sexualidad. "
+  respuestaUno: Cuales mas
+  respuestaDos: 
+  respuestaTres: 
   respuestaCuatro: 
   pesoR1: 0
   pesoR2: 0
   pesoR3: 0
   pesoR4: 0
-  arrayReferencias: 0f0000000f0000001000000000000000
+  arrayReferencias: 06000000
   quitaBotones: 0
   image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
-  personaje: {fileID: 0}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

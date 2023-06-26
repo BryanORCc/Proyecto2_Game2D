@@ -447,7 +447,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -405}
+  m_AnchoredPosition: {x: 521, y: -435}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &582101625
@@ -714,8 +714,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1250, y: 450}
+  m_AnchoredPosition: {x: 0, y: -59}
+  m_SizeDelta: {x: 1250, y: 728.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1508008703
 MonoBehaviour:
@@ -737,9 +737,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Una ma\xF1ana, \"nombre\" sali\xF3 como siempre a comprar pan para desayunar
-    antes de ir al colegio. En el camino por el parque, se encontr\xF3 con la inusual
-    escena de dos hombres abrazados y bes\xE1ndose."
+  m_text: "Bienvenidos , pero en esta oportunidad trataremos sobre la Identidad y
+    Corporalidad.\r\nEn este caso conoceremos a un joven llamado Alex que se encontraba
+    en medio de un viaje hacia el descubrimiento de su identidad y corporalidad en
+    la sexualidad, pero antes de seguir con esta historia \xBFSabes que es la identidad
+    y corporalidad, frente a la sexualidad?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 89be38d9bddd0f546b2ce39d15992e45, type: 2}
   m_sharedMaterial: {fileID: -2833070557427774773, guid: 89be38d9bddd0f546b2ce39d15992e45, type: 2}

@@ -12,11 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 18
   m_EditorClassIdentifier: 
-  textoNarrativo: "En ese momento empiezas a analizar la diversidad sexual que existe
-    a lo largo de los a\xF1os en todo el mundo y te preguntas...."
-  respuestaUno: Cuales son las identidades de genero que existe en el mundo
-  respuestaDos: En que genero estoy identificado
-  respuestaTres: Por que existen diferentes generos sexuales
+  textoNarrativo: "Si elegiste esta opci\xF3n, es una de las opciones que tienen
+    que suceder a lo largo del tiempo, principalmente para poder evolucionar como
+    ser humano y tener empat\xEDa entre personas.\r\nCONSEJO: Lucha por todos los
+    derechos de los seres humanos para que puedan ser respetados mas adelante."
+  respuestaUno: Prefieres seguir con la historia
+  respuestaDos: Quiero ver las otras opciones
+  respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 17000000170000001800000000000000
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 150000000f000000
   quitaBotones: 0
+  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

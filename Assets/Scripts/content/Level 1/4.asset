@@ -12,13 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  textoNarrativo: '"Nombre" realiza el mandado y se dirige a casa para salir al colegio...
-
-    Ya
-    en el colegio decide'
-  respuestaUno: Preguntar a un amigo sobre el tema
-  respuestaDos: Preguntar a un profesor
-  respuestaTres: No hacer nada
+  textoNarrativo: "Si elegiste esta opci\xF3n, con ayuda del tutor vuelve a leer
+    los conceptos y lo que no sepas preg\xFAntaselo :)"
+  respuestaUno: REGRESAR
+  respuestaDos: 
+  respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 0c0000000d0000000e000000
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 01000000
   quitaBotones: 0
+  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

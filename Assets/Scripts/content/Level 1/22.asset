@@ -12,11 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 22
   m_EditorClassIdentifier: 
-  textoNarrativo: "Entonces \"Nombre\" confundido empieza a generar dudas frente
-    a los g\xE9neros sexuales"
-  respuestaUno: Cuales son las identidades de genero que existe en el mundo
-  respuestaDos: En que genero estoy identificado
-  respuestaTres: Por que existen diferentes generos sexuales
+  textoNarrativo: "Y as\xED, Alex descubri\xF3 que la identidad y la corporalidad
+    en la sexualidad no se definen por las normas sociales, sino por el amor y la
+    aceptaci\xF3n de uno mismo. Encontr\xF3 su propio camino hacia la felicidad y
+    el respeto, y su historia se convirti\xF3 en un legado de valent\xEDa y autenticidad
+    para las generaciones futuras."
+  respuestaUno: FIN
+  respuestaDos: 
+  respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 00000000000000000000000000000000
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 32000000
   quitaBotones: 0
+  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

@@ -12,17 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  textoNarrativo: "La pareja incomoda, se acerca, se colocan delante tuyo y te preguntan\n\xBFQue
-    sucede, tienes algun problema con nosotros?"
-  respuestaUno: Si, pienso que esta mal que hagan eso
-  respuestaDos: Expresar incomodidad e irse sin decir nada
-  respuestaTres: Apartarlos e irse
+  textoNarrativo: "Pues bien regresamos a Alex,  Desde temprana edad, Alex siempre
+    se hab\xEDa sentido diferente, como si no encajara en los estereotipos tradicionales
+    de g\xE9nero que la sociedad le impon\xEDa. A medida que crec\xEDa, su curiosidad
+    y cuestionamiento sobre su propia identidad de g\xE9nero se intensificaban. Todos
+    estos generos existen........."
+  respuestaUno: "\xBFCuales son?"
+  respuestaDos: 
+  respuestaTres: 
   respuestaCuatro: 
   pesoR1: 0
   pesoR2: 0
   pesoR3: 0
   pesoR4: 0
-  arrayReferencias: 050000000600000007000000
+  arrayReferencias: 05000000
   quitaBotones: 0
   image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
-  personaje: {fileID: 0}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

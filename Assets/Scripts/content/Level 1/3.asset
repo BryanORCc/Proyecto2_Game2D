@@ -12,10 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: 
-  textoNarrativo: La pareja se da cuenta y empiezan a acercarse
-  respuestaUno: Salir corriendo
-  respuestaDos: Disculparse e irse
-  respuestaTres: "Quedarse y preguntar sobre la situaci\xF3n"
+  textoNarrativo: "La corporalidad se refiere a la vivencia y percepci\xF3n del propio
+    cuerpo. Incluye la conciencia de las caracter\xEDsticas f\xEDsicas y las funciones
+    corporales, as\xED como la relaci\xF3n con la imagen corporal y la autoaceptaci\xF3n.
+    La educaci\xF3n sexual tambi\xE9n debe abordar la corporalidad de manera positiva,
+    promoviendo una imagen corporal saludable y el respeto hacia los cuerpos de los
+    dem\xE1s. \xBFLo entendiste?"
+  respuestaUno: SI
+  respuestaDos: NO
+  respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 02000000060000000b000000
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 0100000004000000
   quitaBotones: 0
+  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

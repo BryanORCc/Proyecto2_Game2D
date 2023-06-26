@@ -12,11 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 15
   m_EditorClassIdentifier: 
-  textoNarrativo: "La pareja te responde: \"Tienes que ser mas emp\xE1tico con la
-    gente y pensar que el mundo y los g\xE9neros han cambiado\""
-  respuestaUno: Pues, yo creo que eso esta mal
-  respuestaDos: Pero, si solo existen 2 generos, Masculino y femenino
-  respuestaTres: ok, lo entendi, no volvera a pasar
-  respuestaCuatro: 
-  arrayReferencias: 14000000140000001500000000000000
+  textoNarrativo: "Entonces continuemos con esta historia, Con el tiempo, Alex encontr\xF3
+    el coraje para expresar su identidad y corporalidad en la sexualidad de manera
+    aut\xE9ntica. Experiment\xF3 una liberaci\xF3n emocional y se sinti\xF3 m\xE1s
+    en paz consigo mismo. Ya no se trataba de encajar en un molde predefinido, sino
+    de vivir su verdad sin miedo al juicio de los dem\xE1s. Elige una opcion"
+  respuestaUno: Tu crees que la sociedad tiene que aceptarte como eres
+  respuestaDos: Tu crees que hay que  promulgar el respeto a la identidad sexual
+  respuestaTres: 'Tu crees que las personas tienen un pensamiento de derecho '
+  respuestaCuatro: Tu crees que la identidad sexual puede variar
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 11000000120000001300000014000000
   quitaBotones: 0
+  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

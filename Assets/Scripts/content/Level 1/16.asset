@@ -12,11 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 16
   m_EditorClassIdentifier: 
-  textoNarrativo: Entonces la pareja se da cuenta lo mal informado que te encuentras
-    y decide evitar enfrentarse contigo y se va
-  respuestaUno: Ya estoy tarde, creo que no ire al colegio
-  respuestaDos: No comprar nada e irse a casa
-  respuestaTres: "Ir a la tienda r\xE1pido a comprar el pan e ir a casa"
+  textoNarrativo: "Si elegiste esta opci\xF3n, es la opci\xF3n  err\xF3nea ya que
+    otras personas pueden estar pasando por el mismo problema de no identificaci\xF3n
+    y peor aun no aceptaci\xF3n.\r\nCONSEJO: En ese caso recuerda siempre que hay
+    que tener empat\xEDa, no solo para la descripci\xF3n de esto, si no para todo
+    el desarrollo de tu vida "
+  respuestaUno: ADELANTE
+  respuestaDos: 
+  respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 15000000000000000000000000000000
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 0d000000
   quitaBotones: 0
+  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

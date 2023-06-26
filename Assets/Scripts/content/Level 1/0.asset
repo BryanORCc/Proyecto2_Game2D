@@ -12,17 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 0
   m_EditorClassIdentifier: 
-  textoNarrativo: "\"nombre\" \xBFCual seria tu primera accion al ver esta pareja
-    en el parque?"
-  respuestaUno: Reclamarles a la pareja, el porque hacen eso en publico
-  respuestaDos: Ignorar la situacion
-  respuestaTres: Quedarse Viendo
-  respuestaCuatro: Esperar para contarle a un amigo
+  textoNarrativo: "Bienvenidos , pero en esta oportunidad trataremos sobre la Identidad
+    y Corporalidad.\r\nEn este caso conoceremos a un joven llamado Alex que se encontraba
+    en medio de un viaje hacia el descubrimiento de su identidad y corporalidad en
+    la sexualidad, pero antes de seguir con esta historia \xBFSabes que es la identidad
+    y corporalidad, frente a la sexualidad?"
+  respuestaUno: SI
+  respuestaDos: NO
+  respuestaTres: 
+  respuestaCuatro: 
   pesoR1: 0
   pesoR2: 0
   pesoR3: 0
   pesoR4: 0
-  arrayReferencias: 01000000020000000300000004000000
+  arrayReferencias: 0100000002000000
   quitaBotones: 0
   image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
   personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

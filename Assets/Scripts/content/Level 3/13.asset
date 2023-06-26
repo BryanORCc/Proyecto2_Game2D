@@ -16,11 +16,15 @@ MonoBehaviour:
     conoci\xF3 a una joven llamada Isabella. Ella irradiaba calidez y ternura en
     todo lo que hac\xEDa. Isabella compart\xEDa su afectividad y su amor de manera
     desinteresada, sin esperar nada a cambio. \xBFQue crees que hizo alejandro?"
-  respuestaUno: 
-  respuestaDos: 
-  respuestaTres: 
+  respuestaUno: "Empez\xF3 a cambiar de opini\xF3n frente  a la conexi\xF3n emocional"
+  respuestaDos: Intento acercarse a ella
+  respuestaTres: La ignoro y se fue
   respuestaCuatro: 
-  arrayReferencias: 0000000000000000
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 0e0000000e0000000f000000
   quitaBotones: 0
   image: {fileID: 21300000, guid: e8ccff1e2ce55a249b82527ff0315920, type: 3}
   personaje: {fileID: 0}

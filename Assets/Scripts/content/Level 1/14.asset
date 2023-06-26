@@ -12,12 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 14
   m_EditorClassIdentifier: 
-  textoNarrativo: "Continuas con tus actividades estudiantiles, con duda de lo que
-    vio en la ma\xF1ana, y,  de pronto una amiga se da cuenta que algo te molesta.\nElla
-    te pregunta: \xBFQue es lo que te pasa?"
-  respuestaUno: No contarle lo sucedido e irse a clases
-  respuestaDos: Preguntarle que opina sobre la homosexualidad
-  respuestaTres: Contarle lo sucedido
+  textoNarrativo: "Si elegiste esta opci\xF3n, es porque crees q no es importante
+    la identidad de genero y que es lo que verdaderamente te importa, como una relaci\xF3n
+    contigo mismo.\r\nCONSEJO: En este caso recuerda que la primera persona a quien
+    tienes que amar y defender es a ti mismo."
+  respuestaUno: ADELANTE
+  respuestaDos: 
+  respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 00000000000000000000000000000000
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 0d000000
   quitaBotones: 0
+  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

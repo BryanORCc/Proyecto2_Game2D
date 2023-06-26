@@ -12,11 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 7
   m_EditorClassIdentifier: 
-  textoNarrativo: La pareja te grita "No seas tan ignorante, estamos en el siglo
-    XXI"
-  respuestaUno: '"Nombre" no les hace caso y continua su camino'
-  respuestaDos: decirles que no se debe de hacer eso
-  respuestaTres: Irse a casa
+  textoNarrativo: "- TERCER GENERO: Algunos Estados la recogen como una alternativa
+    jur\xEDdica al momento de hacer un tr\xE1mite legal.\r\n-PANGENERO: asumen que
+    su g\xE9nero abarca todos los g\xE9neros, el cual es inmutable y est\xE1tico."
+  respuestaUno: Continuemos con la historia
+  respuestaDos: 
+  respuestaTres: 
   respuestaCuatro: 
-  arrayReferencias: 04000000100000000400000000000000
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 08000000
   quitaBotones: 0
+  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}

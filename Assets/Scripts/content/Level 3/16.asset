@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
+  m_Name: 16
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Entonces continuemos, A trav\xE9s de su relaci\xF3n con Isabella,
+    Alejandro aprendi\xF3 que la sexualidad no se trata solo del acto f\xEDsico,
+    sino de una danza de emociones, respeto y conexi\xF3n profunda. Descubri\xF3
+    que la afectividad era el ingrediente clave que transformaba un encuentro sexual
+    en algo m\xE1gico y significativo.\r\n "
+  respuestaUno: Tu crees que las relaciones solamente se basan en lo fisico
+  respuestaDos: Tu crees que las relaciones solamente se basan en emociones
+  respuestaTres: 'Tu crees que las relaciones no tienen que relacion con lo fisico
+    o emcional '
+  respuestaCuatro: "Tu crees que las relaciones tienen que basarse en lo f\xEDsico
+    y emocional "
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
+  arrayReferencias: 12000000130000001400000015000000
+  quitaBotones: 0
+  image: {fileID: 21300000, guid: e8ccff1e2ce55a249b82527ff0315920, type: 3}
+  personaje: {fileID: 0}
