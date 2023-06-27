@@ -21,9 +21,9 @@ MonoBehaviour:
   respuestaDos: Quieres jugar al Fornite
   respuestaTres: Reiniciar la PC
   respuestaCuatro: 
-  pesoR1: 0
-  pesoR2: 0
-  pesoR3: 0
+  pesoR1: 1.5
+  pesoR2: 0.2
+  pesoR3: 0.5
   pesoR4: 0
   arrayReferencias: 0b0000000c0000000c000000
   quitaBotones: 0

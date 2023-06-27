@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 0
   m_EditorClassIdentifier: 
-  textoNarrativo: "Antes de iniciar con la historia quisiera si Sabes  \xBFQue es
-    la identidad y corporalidad, frente a la sexualidad?"
+  textoNarrativo: "Antes de iniciar con la historia \"nombre\", quisiera saber si
+    conoces  \xBFQue es la identidad y corporalidad, frente a la sexualidad?"
   respuestaUno: SI
   respuestaDos: NO
   respuestaTres: 
   respuestaCuatro: 
-  pesoR1: 0
-  pesoR2: 0
+  pesoR1: 1.5
+  pesoR2: 0.5
   pesoR3: 0
   pesoR4: 0
   arrayReferencias: 0100000002000000

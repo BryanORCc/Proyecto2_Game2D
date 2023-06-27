@@ -19,9 +19,9 @@ MonoBehaviour:
   respuestaDos: Intento no aceptarse
   respuestaTres: Se ignoro asi mismo
   respuestaCuatro: 
-  pesoR1: 0
-  pesoR2: 0
-  pesoR3: 0
+  pesoR1: 1
+  pesoR2: 0.6
+  pesoR3: 0.5
   pesoR4: 0
   arrayReferencias: 0d0000000e0000000e000000
   quitaBotones: 0

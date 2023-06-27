@@ -23,7 +23,7 @@ MonoBehaviour:
   respuestaDos: 
   respuestaTres: 
   respuestaCuatro: 
-  pesoR1: 0
+  pesoR1: 1.5
   pesoR2: 0
   pesoR3: 0
   pesoR4: 0
