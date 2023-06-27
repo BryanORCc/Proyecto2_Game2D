@@ -21,6 +21,11 @@ MonoBehaviour:
   respuestaDos: TENIENDO PREJUICIOS SIEMPRE E IRRESPETANDO A LOS DEMAS
   respuestaTres: REINICIAR LA PC
   respuestaCuatro: 
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
   arrayReferencias: 0c0000000d0000000d000000
   quitaBotones: 0
-  image: {fileID: 21300000, guid: 339329365eb23964d80634a7ab52f204, type: 3}
+  image: {fileID: 21300000, guid: a60952d3414010044a882d51a140ea74, type: 3}
+  personaje: {fileID: 0}

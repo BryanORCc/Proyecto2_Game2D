@@ -18,6 +18,11 @@ MonoBehaviour:
   respuestaDos: 
   respuestaTres: 
   respuestaCuatro: 
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
   arrayReferencias: 02000000
   quitaBotones: 0
-  image: {fileID: 21300000, guid: fbf7d3395e8a5784d8d478a031c1db94, type: 3}
+  image: {fileID: 21300000, guid: 78cca222875b546489734c728784eaba, type: 3}
+  personaje: {fileID: 0}

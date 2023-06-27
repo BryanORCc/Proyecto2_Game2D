@@ -20,6 +20,11 @@ MonoBehaviour:
   respuestaDos: SEXUALIDAD RESPONSABLE
   respuestaTres: 
   respuestaCuatro: 
+  pesoR1: 0
+  pesoR2: 0
+  pesoR3: 0
+  pesoR4: 0
   arrayReferencias: 0800000009000000
   quitaBotones: 0
-  image: {fileID: 21300000, guid: e8ccff1e2ce55a249b82527ff0315920, type: 3}
+  image: {fileID: 21300000, guid: a60952d3414010044a882d51a140ea74, type: 3}
+  personaje: {fileID: 0}

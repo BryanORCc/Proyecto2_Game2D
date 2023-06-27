@@ -714,8 +714,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -59}
-  m_SizeDelta: {x: 1250, y: 728.19}
+  m_AnchoredPosition: {x: 0, y: -29.44}
+  m_SizeDelta: {x: 1250, y: 669.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1508008703
 MonoBehaviour:
@@ -737,11 +737,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bienvenidos , pero en esta oportunidad trataremos sobre la Identidad y
-    Corporalidad.\r\nEn este caso conoceremos a un joven llamado Alex que se encontraba
+  m_text: 'Bienvenidos , pero en esta oportunidad trataremos sobre la Identidad y
+    Corporalidad.
+
+    En este caso conoceremos a un joven llamado Alex que se encontraba
     en medio de un viaje hacia el descubrimiento de su identidad y corporalidad en
-    la sexualidad, pero antes de seguir con esta historia \xBFSabes que es la identidad
-    y corporalidad, frente a la sexualidad?"
+    la sexualidad.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 89be38d9bddd0f546b2ce39d15992e45, type: 2}
   m_sharedMaterial: {fileID: -2833070557427774773, guid: 89be38d9bddd0f546b2ce39d15992e45, type: 2}

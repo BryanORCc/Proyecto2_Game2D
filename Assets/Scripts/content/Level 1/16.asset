@@ -27,5 +27,5 @@ MonoBehaviour:
   pesoR4: 0
   arrayReferencias: 0d000000
   quitaBotones: 0
-  image: {fileID: 21300000, guid: 516d858b949606a488dd64686edbac59, type: 3}
+  image: {fileID: 21300000, guid: 78cca222875b546489734c728784eaba, type: 3}
   personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}
