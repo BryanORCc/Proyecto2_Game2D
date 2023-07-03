@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 using UnityEngine.SceneManagement;
 using TMPro;
 
@@ -11,7 +12,8 @@ public class script_finalResult : MonoBehaviour
     void Start()
     {
         float total = script_textControl.instance.nota;
-        totalResult.text = "Nota final: " + total.ToString();
+        double percentage = Math.Round((total * 100) / 20, 2);
+        totalResult.text = "Puntuación obtenida: " + percentage.ToString() + "%";
     }
 
     // Update is called once per frame

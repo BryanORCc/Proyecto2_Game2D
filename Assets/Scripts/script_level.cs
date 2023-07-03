@@ -23,9 +23,6 @@ public class script_level : ScriptableObject
     [Space(20)]
     public int[] arrayReferencias = new int[4];
 
-    [Space(20)]
-    public bool quitaBotones;
-
     public Sprite image;
     public GameObject personaje;
 }

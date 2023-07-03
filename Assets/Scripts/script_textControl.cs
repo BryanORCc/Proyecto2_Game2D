@@ -57,8 +57,8 @@ public class script_textControl : MonoBehaviour
         if(objetoPersonaje && character)
         {
             GameObject characterComponent = Instantiate(character, objetoPersonaje.transform.position, objetoPersonaje.transform.rotation);
-            characterComponent.transform.localScale = new Vector3(3f, 3f, 3f);
-            characterComponent.transform.localRotation = Quaternion.Euler(new Vector3(0f, 180f, 0f));
+            characterComponent.transform.localScale = new Vector3(4f, 4f, 4f);
+            characterComponent.transform.localRotation = Quaternion.Euler(new Vector3(0f, 0f, 0f));
             characterComponent.transform.parent = objetoPersonaje.transform;
         }
         
