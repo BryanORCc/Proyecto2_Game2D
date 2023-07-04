@@ -26,6 +26,8 @@ public class script_textControl : MonoBehaviour
 
     [SerializeField] GameObject[] arrayBotones;
 
+    private int countCharacters = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -56,9 +58,9 @@ public class script_textControl : MonoBehaviour
         // Asignar el objeto 3d al GameObject
         if(objetoPersonaje && character)
         {
-            GameObject characterComponent = Instantiate(character, objetoPersonaje.transform.position, objetoPersonaje.transform.rotation);
+            GameObject characterComponent = Instantiate(character, objetoPersonaje.transform.position, character.transform.rotation);
             characterComponent.transform.localScale = new Vector3(4f, 4f, 4f);
-            characterComponent.transform.localRotation = Quaternion.Euler(new Vector3(0f, 0f, 0f));
+            //characterComponent.transform.localRotation = Quaternion.Euler(new Vector3(0f, 0f, 0f));
             characterComponent.transform.parent = objetoPersonaje.transform;
         }
         
@@ -76,6 +78,13 @@ public class script_textControl : MonoBehaviour
             {
                 boton.SetActive(false);
             }
+        }
+
+        //Transform[] hijos = objetoPersonaje.GetComponentInChildren<Transform>();
+        Transform childs = objetoPersonaje.transform;
+        if(childs.childCount > 1)
+        {
+            DestroyImmediate(childs.GetChild(0).gameObject);
         }
     }
 
