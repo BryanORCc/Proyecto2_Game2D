@@ -26,8 +26,6 @@ public class script_textControl : MonoBehaviour
 
     [SerializeField] GameObject[] arrayBotones;
 
-    private int countCharacters = 0;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -82,7 +80,7 @@ public class script_textControl : MonoBehaviour
 
         //Transform[] hijos = objetoPersonaje.GetComponentInChildren<Transform>();
         Transform childs = objetoPersonaje.transform;
-        if(childs.childCount > 1)
+        if (childs.childCount > 1)
         {
             DestroyImmediate(childs.GetChild(0).gameObject);
         }
