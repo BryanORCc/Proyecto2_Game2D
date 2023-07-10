@@ -9,6 +9,7 @@ TagManager:
   - ImageInScene
   - Character
   - ReplaceName
+  - Character2
   layers:
   - Default
   - TransparentFX

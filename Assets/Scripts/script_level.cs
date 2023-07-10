@@ -25,4 +25,7 @@ public class script_level : ScriptableObject
 
     public Sprite image;
     public GameObject personaje;
+    public float p1PosicionX, p1PosicionY;
+    public GameObject personaje2;
+    public float p2PosicionX, p2PosicionY;
 }

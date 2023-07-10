@@ -20,6 +20,7 @@ public class script_textControl : MonoBehaviour
 
     private Sprite image;
     private GameObject character;
+    private GameObject character2;
     private float[] pesos;
 
     public float nota = 0;
@@ -45,9 +46,11 @@ public class script_textControl : MonoBehaviour
 
         image = plantilla.image;
         character = plantilla.personaje;
+        character2 = plantilla.personaje2;
 
         GameObject objetoConEtiqueta = GameObject.FindWithTag("ImageInScene");
         GameObject objetoPersonaje = GameObject.FindWithTag("Character");
+        GameObject objetoPersonaje2 = GameObject.FindWithTag("Character2");
 
         // Asignar la imagen al componente de imagen
         Image imageComponent = objetoConEtiqueta.GetComponent<Image>();
@@ -56,12 +59,22 @@ public class script_textControl : MonoBehaviour
         // Asignar el objeto 3d al GameObject
         if(objetoPersonaje && character)
         {
-            GameObject characterComponent = Instantiate(character, objetoPersonaje.transform.position, character.transform.rotation);
+            Vector3 p1Position = new(plantilla.p1PosicionX * 0.01f, plantilla.p1PosicionY * 0.01f, objetoPersonaje.transform.position.z);
+            GameObject characterComponent = Instantiate(character, p1Position, character.transform.rotation);
             characterComponent.transform.localScale = new Vector3(4f, 4f, 4f);
             //characterComponent.transform.localRotation = Quaternion.Euler(new Vector3(0f, 0f, 0f));
             characterComponent.transform.parent = objetoPersonaje.transform;
         }
-        
+
+        if (objetoPersonaje2 && character2)
+        {
+            Vector3 p2Position = new(plantilla.p2PosicionX * 0.01f, plantilla.p2PosicionY * 0.01f, objetoPersonaje2.transform.position.z);
+            GameObject characterComponent = Instantiate(character2, p2Position, character2.transform.rotation);
+            characterComponent.transform.localScale = new Vector3(4f, 4f, 4f);
+            //characterComponent.transform.localRotation = Quaternion.Euler(new Vector3(0f, 0f, 0f));
+            characterComponent.transform.parent = objetoPersonaje2.transform;
+        }
+
 
         foreach (var boton in arrayBotones)
         {
@@ -83,6 +96,12 @@ public class script_textControl : MonoBehaviour
         if (childs.childCount > 1)
         {
             DestroyImmediate(childs.GetChild(0).gameObject);
+        }
+
+        Transform childs2 = objetoPersonaje2.transform;
+        if (childs2.childCount > 1)
+        {
+            DestroyImmediate(childs2.GetChild(0).gameObject);
         }
     }
 
