@@ -26,6 +26,10 @@ MonoBehaviour:
   pesoR3: 0
   pesoR4: 0
   arrayReferencias: 0d000000
-  quitaBotones: 0
   image: {fileID: 21300000, guid: 78cca222875b546489734c728784eaba, type: 3}
-  personaje: {fileID: 919132149155446097, guid: c055fb47c3590bf4196d5f2c193645f9, type: 3}
+  personaje: {fileID: 972463135127155348, guid: 84df8f386bae1924ea013cc64685af66, type: 3}
+  p1PosicionX: 600
+  p1PosicionY: -400
+  personaje2: {fileID: 1931993347764967137, guid: c8a4591668527484ca496af39474bd07, type: 3}
+  p2PosicionX: -700
+  p2PosicionY: -400
