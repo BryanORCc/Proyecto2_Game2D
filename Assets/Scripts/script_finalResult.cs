@@ -5,6 +5,7 @@ using System;
 using TMPro;
 using MongoDB.Driver;
 using MongoDB.Bson;
+using System.IO;
 
 public class script_finalResult : MonoBehaviour
 {
@@ -24,14 +25,35 @@ public class script_finalResult : MonoBehaviour
         InsertData(percentage.ToString() + "%");
     }
 
+    private string GetMongoDBConnectionString()
+    {
+        string filePath = Application.dataPath + "/Scripts/mongodb_connection.txt";
+        string connectionString = string.Empty;
+
+        if (File.Exists(filePath))
+        {
+            connectionString = File.ReadAllText(filePath).Trim();
+        }
+
+        return connectionString;
+    }
+
     private void InitConnection()
     {
-        string connectionString = "mongodb+srv://BryanORCc:Rhythm1235@cluster.naaa8iz.mongodb.net/?retryWrites=true&w=majority";
-        client = new MongoClient(connectionString);
-        database = client.GetDatabase("Game");
+        string connectionString = GetMongoDBConnectionString();
 
-        // Obtener una referencia a la colección
-        collection = database.GetCollection<BsonDocument>("users");
+        if (!string.IsNullOrEmpty(connectionString))
+        {
+            client = new MongoClient(connectionString);
+            database = client.GetDatabase("Game");
+
+            // Obtener una referencia a la colección
+            collection = database.GetCollection<BsonDocument>("users");
+        }
+        else
+        {
+            Debug.LogError("No se encontró la cadena de conexión a MongoDB en el archivo de configuración.");
+        }
     }
 
     private void InsertData(string note)
