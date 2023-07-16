@@ -16,7 +16,7 @@ MonoBehaviour:
     Alejandro aprendi\xF3 que la sexualidad no se trata solo del acto f\xEDsico,
     sino de una danza de emociones, respeto y conexi\xF3n profunda. Descubri\xF3
     que la afectividad era el ingrediente clave que transformaba un encuentro sexual
-    en algo m\xE1gico y significativo.\r\n "
+    en algo m\xE1gico y significativo.\r"
   respuestaUno: Tu crees que las relaciones solamente se basan en lo fisico
   respuestaDos: Tu crees que las relaciones solamente se basan en emociones
   respuestaTres: 'Tu crees que las relaciones no tienen que relacion con lo fisico
@@ -28,6 +28,10 @@ MonoBehaviour:
   pesoR3: 0
   pesoR4: 0
   arrayReferencias: 12000000130000001400000015000000
-  quitaBotones: 0
   image: {fileID: 21300000, guid: a60952d3414010044a882d51a140ea74, type: 3}
   personaje: {fileID: 0}
+  p1PosicionX: 0
+  p1PosicionY: 0
+  personaje2: {fileID: 0}
+  p2PosicionX: 0
+  p2PosicionY: 0

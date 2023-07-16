@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddddf8ab933c076478abcc3adb201224, type: 3}
   m_Name: 8
   m_EditorClassIdentifier: 
-  textoNarrativo: "Quiere decir que el conjunto de las experiencias\r\nsociales configura
-    la personalidad, car\xE1cter y la forma en la que se\r\nrelacionar\xE1 con personas
-    que considere importantes en el futuro\r\n(amigos o pareja), ya que posibilita
-    que el infante sea capaz de\r\nreconocer sus capacidades, debilidades y sentimientos
+  textoNarrativo: "Quiere decir que el conjunto de las experiencias\r sociales configura
+    la personalidad, car\xE1cter y la forma en la que se\r relacionar\xE1 con personas
+    que considere importantes en el futuro\r (amigos o pareja), ya que posibilita
+    que el infante sea capaz de\r reconocer sus capacidades, debilidades y sentimientos
     para disfrutar\r\nde la compa\xF1\xEDa de quienes lo rodean con las normas que
-    ha\r\naprendido y que lo acompa\xF1ar\xE1n a lo largo de su vida adulta. \xBFLo
+    ha\r aprendido y que lo acompa\xF1ar\xE1n a lo largo de su vida adulta. \xBFLo
     entendiste?"
   respuestaUno: SI
   respuestaDos: NO
@@ -28,6 +28,10 @@ MonoBehaviour:
   pesoR3: 0
   pesoR4: 0
   arrayReferencias: 0a0000000b000000
-  quitaBotones: 0
   image: {fileID: 21300000, guid: 64aec0c62a3dcc045a34fdcc4c823b4e, type: 3}
   personaje: {fileID: 0}
+  p1PosicionX: 0
+  p1PosicionY: 0
+  personaje2: {fileID: 0}
+  p2PosicionX: 0
+  p2PosicionY: 0

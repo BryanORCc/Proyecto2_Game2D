@@ -16,7 +16,7 @@ MonoBehaviour:
     en un hombre seguro de s\xED mismo y capaz de establecer v\xEDnculos afectivos
     profundos en su vida sexual. Comparti\xF3 su conocimiento y experiencia con otros,
     ayud\xE1ndolos a comprender la importancia de la afectividad y las relaciones
-    interpersonales en la sexualidad.\r\n "
+    interpersonales en la sexualidad.\r"
   respuestaUno: CONTINUEMOS
   respuestaDos: 
   respuestaTres: 
@@ -26,6 +26,10 @@ MonoBehaviour:
   pesoR3: 0
   pesoR4: 0
   arrayReferencias: 20000000
-  quitaBotones: 0
   image: {fileID: 21300000, guid: a60952d3414010044a882d51a140ea74, type: 3}
   personaje: {fileID: 0}
+  p1PosicionX: 0
+  p1PosicionY: 0
+  personaje2: {fileID: 0}
+  p2PosicionX: 0
+  p2PosicionY: 0
