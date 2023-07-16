@@ -52,12 +52,36 @@ public class script_textControl : MonoBehaviour
         GameObject objetoPersonaje = GameObject.FindWithTag("Character");
         GameObject objetoPersonaje2 = GameObject.FindWithTag("Character2");
 
+        if (objetoPersonaje != null)
+        {
+            Transform parentTransform = objetoPersonaje.transform;
+
+            // Iterar sobre cada hijo y destruirlo
+            for (int i = parentTransform.childCount - 1; i >= 0; i--)
+            {
+                Transform child = parentTransform.GetChild(i);
+                DestroyImmediate(child.gameObject);
+            }
+        }
+
+        if (objetoPersonaje2 != null)
+        {
+            Transform parentTransform = objetoPersonaje2.transform;
+
+            // Iterar sobre cada hijo y destruirlo
+            for (int i = parentTransform.childCount - 1; i >= 0; i--)
+            {
+                Transform child = parentTransform.GetChild(i);
+                DestroyImmediate(child.gameObject);
+            }
+        }
+
         // Asignar la imagen al componente de imagen
         Image imageComponent = objetoConEtiqueta.GetComponent<Image>();
         imageComponent.sprite = image;
 
         // Asignar el objeto 3d al GameObject
-        if(objetoPersonaje && character)
+        if (objetoPersonaje && character)
         {
             Vector3 p1Position = new(plantilla.p1PosicionX * 0.01f, plantilla.p1PosicionY * 0.01f, objetoPersonaje.transform.position.z);
             GameObject characterComponent = Instantiate(character, p1Position, character.transform.rotation);
@@ -89,19 +113,6 @@ public class script_textControl : MonoBehaviour
             {
                 boton.SetActive(false);
             }
-        }
-
-        //Transform[] hijos = objetoPersonaje.GetComponentInChildren<Transform>();
-        Transform childs = objetoPersonaje.transform;
-        if (childs.childCount > 1)
-        {
-            DestroyImmediate(childs.GetChild(0).gameObject);
-        }
-
-        Transform childs2 = objetoPersonaje2.transform;
-        if (childs2.childCount > 1)
-        {
-            DestroyImmediate(childs2.GetChild(0).gameObject);
         }
     }
 
