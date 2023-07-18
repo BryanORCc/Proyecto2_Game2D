@@ -59,10 +59,14 @@ public class script_finalResult : MonoBehaviour
     private void InsertData(string note)
     {
         string name = PlayerPrefs.GetString("Name");
+        string grade = PlayerPrefs.GetString("Grade");
+        string subject = PlayerPrefs.GetString("Subject");
         var document = new BsonDocument
         {
-            {"name", name },
-            { "note", note }
+            {"nombre", name },
+            {"grado", grade},
+            {"tema", subject},
+            { "nota", note }
         };
 
         collection.InsertOne(document);

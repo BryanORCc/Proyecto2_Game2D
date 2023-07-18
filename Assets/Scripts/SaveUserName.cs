@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 public class SaveUserName : MonoBehaviour
 {
     public TMP_InputField inputName;
+    public TMP_InputField inputGrade;
+    public TMP_InputField inputSubject;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +25,12 @@ public class SaveUserName : MonoBehaviour
     public void GameInit()
     {
         string name = TransformCapitalize(inputName.text);
+        string grade = TransformCapitalize(inputGrade.text);
+        string subject = TransformCapitalize(inputSubject.text);
+
         PlayerPrefs.SetString("Name", name);
+        PlayerPrefs.SetString("Grade", grade);
+        PlayerPrefs.SetString("Subject", subject);
 
         SceneManager.LoadScene(3);
     }
