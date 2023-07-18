@@ -30,6 +30,6 @@ MonoBehaviour:
   personaje: {fileID: 5682130577178839830, guid: 840b8b1b252da1a4ea3edf5809c44cbf, type: 3}
   p1PosicionX: 600
   p1PosicionY: -400
-  personaje2: {fileID: 0}
+  personaje2: {fileID: 5840416353752100963, guid: cf1827d02bca2c742b91a1653ce9cbe5, type: 3}
   p2PosicionX: 0
   p2PosicionY: 0
