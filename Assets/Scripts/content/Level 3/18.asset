@@ -20,11 +20,15 @@ MonoBehaviour:
   respuestaDos: Quiero ver las otras opciones
   respuestaTres: 
   respuestaCuatro: 
-  pesoR1: 0
+  pesoR1: 0.3
   pesoR2: 0
   pesoR3: 0
   pesoR4: 0
   arrayReferencias: 1600000010000000
-  quitaBotones: 0
   image: {fileID: 21300000, guid: 64aec0c62a3dcc045a34fdcc4c823b4e, type: 3}
-  personaje: {fileID: 0}
+  personaje: {fileID: 6486919569908044825, guid: a794024c211417243a4e4acbf9a7ae86, type: 3}
+  p1PosicionX: 10
+  p1PosicionY: -420
+  personaje2: {fileID: 0}
+  p2PosicionX: 0
+  p2PosicionY: 0

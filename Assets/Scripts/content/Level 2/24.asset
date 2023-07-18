@@ -21,7 +21,7 @@ MonoBehaviour:
   respuestaDos: "Relaci\xF3n poco Segura con falta de comunicaci\xF3n"
   respuestaTres: "Relaci\xF3n poco fiable sin autonom\xEDa"
   respuestaCuatro: 
-  pesoR1: 0
+  pesoR1: 1
   pesoR2: 0
   pesoR3: 0
   pesoR4: 0

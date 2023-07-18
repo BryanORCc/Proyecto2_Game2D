@@ -22,9 +22,9 @@ MonoBehaviour:
   respuestaDos: Vamo a jugar
   respuestaTres: No se la verdad
   respuestaCuatro: 
-  pesoR1: 1.2
-  pesoR2: 1
-  pesoR3: 0.3
+  pesoR1: 1
+  pesoR2: 0
+  pesoR3: 0
   pesoR4: 0
   arrayReferencias: 090000000a0000000a000000
   image: {fileID: 21300000, guid: 7c545455678b0aa44ad8ca45f471cd29, type: 3}

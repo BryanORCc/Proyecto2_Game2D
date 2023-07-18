@@ -19,8 +19,8 @@ MonoBehaviour:
   respuestaDos: CLASES
   respuestaTres: OTRAS PERSONAS
   respuestaCuatro: 
-  pesoR1: 0
-  pesoR2: 0
+  pesoR1: 1
+  pesoR2: 1
   pesoR3: 0
   pesoR4: 0
   arrayReferencias: 070000000700000007000000

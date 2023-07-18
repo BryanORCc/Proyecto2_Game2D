@@ -22,16 +22,16 @@ MonoBehaviour:
   respuestaUno: SI
   respuestaDos: NO
   respuestaTres: 
-  respuestaCuatro: final
-  pesoR1: 0
+  respuestaCuatro: 
+  pesoR1: 1
   pesoR2: 0
   pesoR3: 0
   pesoR4: 6
   arrayReferencias: 01000000060000000200000032000000
   image: {fileID: 21300000, guid: 64aec0c62a3dcc045a34fdcc4c823b4e, type: 3}
-  personaje: {fileID: 0}
-  p1PosicionX: 0
-  p1PosicionY: 0
-  personaje2: {fileID: 0}
-  p2PosicionX: 0
-  p2PosicionY: 0
+  personaje: {fileID: 4177492408352622472, guid: b805c485006a4ac4794c0019d8a43e4f, type: 3}
+  p1PosicionX: 600
+  p1PosicionY: -400
+  personaje2: {fileID: 9161009259728296384, guid: 242e54c5437c47c4ca29a9adbb6e789e, type: 3}
+  p2PosicionX: -700
+  p2PosicionY: -400

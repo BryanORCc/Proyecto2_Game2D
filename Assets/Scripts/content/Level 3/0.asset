@@ -18,15 +18,15 @@ MonoBehaviour:
   respuestaDos: NO
   respuestaTres: 
   respuestaCuatro: 
-  pesoR1: 10
-  pesoR2: 15
+  pesoR1: 1
+  pesoR2: 0
   pesoR3: 0
   pesoR4: 0
   arrayReferencias: 01000000020000000000000000000000
   image: {fileID: 21300000, guid: 64aec0c62a3dcc045a34fdcc4c823b4e, type: 3}
-  personaje: {fileID: 280026450554576190, guid: 75fcf65b1142f6b4489ba46e38ade8df, type: 3}
-  p1PosicionX: 0
-  p1PosicionY: 0
-  personaje2: {fileID: 919132149155446097, guid: e87501bebd5ffaf4d85ff64075d9e0a9, type: 3}
-  p2PosicionX: 0
-  p2PosicionY: 0
+  personaje: {fileID: 7726931870196110057, guid: a87575460f21cb74688b6bcb63e4156d, type: 3}
+  p1PosicionX: 600
+  p1PosicionY: -400
+  personaje2: {fileID: 7579067724869822605, guid: 5d7289c05d3c13045bbb0d3bfc86f337, type: 3}
+  p2PosicionX: -700
+  p2PosicionY: -400

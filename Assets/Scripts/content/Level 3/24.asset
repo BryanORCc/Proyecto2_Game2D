@@ -22,10 +22,14 @@ MonoBehaviour:
   respuestaTres: NO
   respuestaCuatro: 
   pesoR1: 0
-  pesoR2: 0
+  pesoR2: 0.3
   pesoR3: 0
   pesoR4: 0
   arrayReferencias: 1b0000001c0000001d000000
-  quitaBotones: 0
   image: {fileID: 21300000, guid: 64aec0c62a3dcc045a34fdcc4c823b4e, type: 3}
-  personaje: {fileID: 0}
+  personaje: {fileID: 4177492408352622472, guid: b805c485006a4ac4794c0019d8a43e4f, type: 3}
+  p1PosicionX: 600
+  p1PosicionY: -400
+  personaje2: {fileID: 7484414507043752787, guid: d5ce900056d291241bf14783d4fe485c, type: 3}
+  p2PosicionX: -700
+  p2PosicionY: -400

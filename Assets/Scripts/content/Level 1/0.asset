@@ -18,8 +18,8 @@ MonoBehaviour:
   respuestaDos: NO
   respuestaTres: 
   respuestaCuatro: 
-  pesoR1: 1.5
-  pesoR2: 0.5
+  pesoR1: 1
+  pesoR2: 0
   pesoR3: 0
   pesoR4: 0
   arrayReferencias: 0100000002000000
