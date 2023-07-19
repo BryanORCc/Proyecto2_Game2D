@@ -106,7 +106,6 @@ public class script_textControl : MonoBehaviour
 
             if (textoBoton != null && !string.IsNullOrEmpty(textoBoton.text))
             {
-                Debug.Log("El botón contiene texto: " + textoBoton.text);
                 boton.SetActive(true);
             }
             else

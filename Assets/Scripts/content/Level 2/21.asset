@@ -27,9 +27,9 @@ MonoBehaviour:
   pesoR4: 0
   arrayReferencias: 0f0000000f000000
   image: {fileID: 21300000, guid: 64aec0c62a3dcc045a34fdcc4c823b4e, type: 3}
-  personaje: {fileID: 1561011003405318271, guid: 0615945fdbabde14a9d2c14e7bb637ff, type: 3}
+  personaje: {fileID: 2585526468465213437, guid: 7e983ffd8b93f864c976beac4a3144a1, type: 3}
   p1PosicionX: 600
   p1PosicionY: -400
-  personaje2: {fileID: 7181315291079128069, guid: 575091b66d705e342a8e0aa68efb2c3c, type: 3}
+  personaje2: {fileID: 2227526835901929739, guid: d749a23745e6e6e4694dd1dd9b20dd30, type: 3}
   p2PosicionX: -700
   p2PosicionY: -400

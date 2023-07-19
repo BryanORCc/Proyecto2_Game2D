@@ -27,12 +27,15 @@ public class script_finalResult : MonoBehaviour
 
     private string GetMongoDBConnectionString()
     {
-        string filePath = Application.dataPath + "/Scripts/mongodb_connection.txt";
+        TextAsset resourceFile = Resources.Load<TextAsset>("mongodb_connection");
+
+        string filePath = resourceFile.text.Trim();
+
         string connectionString = string.Empty;
 
-        if (File.Exists(filePath))
+        if (filePath != "")
         {
-            connectionString = File.ReadAllText(filePath).Trim();
+            connectionString = filePath;
         }
 
         return connectionString;
